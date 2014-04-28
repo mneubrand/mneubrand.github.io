@@ -1,0 +1,9 @@
+[submodule "drill-baby-drill"]
+	path = drill-baby-drill
+	url = https://github.com/mneubrand/drill-baby-drill.git
+[submodule "jsfxr"]
+	path = jsfxr
+	url = https://github.com/mneubrand/jsfxr.git
+[submodule "bomb.js"]
+	path = bomb.js
+	url = https://github.com/mneubrand/bomb.js
