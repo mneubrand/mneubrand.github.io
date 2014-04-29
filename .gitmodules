@@ -1,0 +1,18 @@
+[submodule "projects/drill-baby-drill"]
+	path = projects/drill-baby-drill
+	url = https://github.com/mneubrand/drill-baby-drill.git
+[submodule "projects/jsfxr"]
+	path = projects/jsfxr
+	url = https://github.com/mneubrand/jsfxr.git
+[submodule "projects/bomb.js"]
+	path = projects/bomb.js
+	url = https://github.com/mneubrand/bomb.js
+[submodule "projects/match"]
+	path = projects/match
+	url = https://github.com/mneubrand/mat-c-h.git
+[submodule "projects/bacterial-world"]
+	path = projects/bacterial-world
+	url = https://github.com/mneubrand/bacterial-world.git
+[submodule "projects/pot-fall"]
+	path = projects/pot-fall
+	url = https://github.com/mneubrand/pot-fall.git
