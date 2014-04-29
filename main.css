@@ -1,3 +1,15 @@
-.description {
-	height: 80px;
+.thumbnail {
+    min-height: 400px;
+    padding: 6px;
+}
+
+.thumbnail img {
+    max-width: 80%;
+}
+
+.thumbnail .caption {
+	position: absolute;
+    height: 50%;
+    bottom: 10px;
+    padding: 5px;
 }

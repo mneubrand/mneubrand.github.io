@@ -7,3 +7,12 @@
 [submodule "bomb.js"]
 	path = bomb.js
 	url = https://github.com/mneubrand/bomb.js
+[submodule "match"]
+	path = match
+	url = https://github.com/mneubrand/mat-c-h.git
+[submodule "bacterial-world"]
+	path = bacterial-world
+	url = https://github.com/mneubrand/bacterial-world.git
+[submodule "pot-fall"]
+	path = pot-fall
+	url = https://github.com/mneubrand/pot-fall.git
