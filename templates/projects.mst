@@ -1,0 +1,37 @@
+{{#.}}
+
+    <div class="row">
+
+    {{#.}}
+        <div class="col-md-3">
+            <div class="thumbnail">
+
+                <img src="{{image}}"/>
+
+                <div class="caption">
+                    <a href="{{actions.0.url}}">
+                        <h3>{{title}}</h3>
+                    </a>
+
+                    <p class="description">{{{description}}}</p>
+
+                    <div class="actions">
+                        <p class="tags">
+                            {{#tags}}
+                              <span class="tag label badge">{{.}}</span>
+                            {{/tags}}
+                        </p>
+
+                        {{#actions}}
+                            <a class="btn btn-default" href="{{url}}">{{title}} &raquo;</a>
+                        {{/actions}}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    {{/.}}
+
+    </div>
+
+{{/.}}
