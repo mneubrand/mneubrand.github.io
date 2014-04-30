@@ -4,6 +4,10 @@
 
 $(function () {
 
+    var pages = [
+        'Projects'
+    ]
+
     var templates = {};
     var data = {};
 
@@ -33,5 +37,5 @@ $(function () {
         $('#main').html(Mustache.render(templates[page], data[page]));
     }
 
-    load('projects');
+    load(pages[0]);
 });
