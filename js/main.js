@@ -26,7 +26,7 @@ $(function () {
                 render(page);
             }).fail(function() {
                 console.log('Load failed!');
-            });;
+            });
         } else {
             render(page);
         }

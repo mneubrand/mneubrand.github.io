@@ -32,7 +32,7 @@
             }
         ],
         "tags": [
-            "JavaScript", "48h", "HTML5 Canvas", "canvg"
+            "JavaScript", "Competition", "Canvas"
         ]
     },
     {
@@ -50,7 +50,7 @@
             }
         ],
         "tags": [
-            "JavaScript", "HTML5 Canvas", "13k"
+            "JavaScript", "Competition", "Canvas"
         ]
     },
     {
@@ -63,16 +63,16 @@
                 "url": "projects/match/javascript/game.html"
             },
             {
-                "title": "Source",
-                "url": "https://github.com/mneubrand/mat-c-h"
-            },
-            {
                 "title": "Trailer",
                 "url": "http://youtu.be/53-R_h437EI"
+            },
+            {
+                "title": "Source",
+                "url": "https://github.com/mneubrand/mat-c-h"
             }
         ],
         "tags": [
-            "JavaScript", "Lua", "Marmalade", "sprite.js"
+            "JavaScript", "Lua", "Marmalade"
         ]
     },
 
@@ -91,7 +91,7 @@
             }
         ],
         "tags": [
-            "JavaScript", "48h", "HTML5 Canvas"
+            "JavaScript", "Competition", "Canvas"
         ]
     },
     {
@@ -109,7 +109,7 @@
             }
         ],
         "tags": [
-            "Unity", "C#", "48h"
+            "Unity", "C#", "Competition"
         ]
     },
     {
@@ -127,7 +127,7 @@
             }
         ],
         "tags": [
-            "JavaScript", "48h", "HTML5 Canvas"
+            "JavaScript", "Competition", "Canvas"
         ]
     }
 ]

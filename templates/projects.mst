@@ -1,5 +1,6 @@
+<div class="projects">
 {{#.}}
-    <div class="thumbnail">
+    <div class="project">
 
         <img src="{{image}}"/>
 
@@ -10,18 +11,22 @@
 
             <p class="description">{{{description}}}</p>
 
-            <div class="actions">
-                <p class="tags">
+            <div class="bottom">
+                <div class="tags">
                     {{#tags}}
                       <span class="tag label badge">{{.}}</span>
                     {{/tags}}
-                </p>
+                </div>
 
-                {{#actions}}
-                    <a class="btn btn-default" href="{{url}}">{{title}} &raquo;</a>
-                {{/actions}}
+                <div class="actions">
+                    {{#actions}}
+                        <a class="btn" href="{{url}}">{{title}} &raquo;</a>
+                    {{/actions}}
+                </div>
             </div>
+
         </div>
 
     </div>
 {{/.}}
+</div>
