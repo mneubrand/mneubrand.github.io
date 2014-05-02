@@ -2,7 +2,7 @@
     {
         "title": "jsfxr",
         "image": "img/projects/jsfxr.png",
-        "description": "<a href=\"http://code.google.com/p/as3sfxr/\">as3fxr</a> synth port to JavaScript created for <a href=\"http://js13kgames.com/\">js13kGames</a>",
+        "description": "<a href=\"http://code.google.com/p/as3sfxr/\">as3fxr</a> synth port to JavaScript created for <a href=\"http://js13kgames.com/\">js13kGames</a>. Minified size of 2517 bytes",
         "actions": [
             {
                 "title": "Demo",

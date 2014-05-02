@@ -2,6 +2,10 @@ body {
     background-color: #f3f4f5;
 }
 
+.clear {
+    clear: both;
+}
+
 .content {
     margin-top: 70px;
     text-align: center;
@@ -9,6 +13,26 @@ body {
 
 .projects {
     display: inline-block;
+}
+
+.projects .row {
+    width: 90%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projects .table {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects .btn-toolbar {
+    width: 100px;
+    margin: 0 auto;
 }
 
 .project {
@@ -20,10 +44,15 @@ body {
     display: inline-block;
 }
 
-.project img {
-    height: auto;
-    width: 50%;
+.preview {
+    height: 280px;
+    width: 280px;
+    overflow: hidden;
     float: left;
+}
+
+.preview img {
+    position: relative;
 }
 
 .project .caption {
@@ -34,18 +63,18 @@ body {
     position: relative;
 }
 
-.project h3 {
+h3 {
     margin-top: 8px;
     margin-bottom: 8px;
     font-size: 30px;
 }
 
-.project .description {
+.description {
     font-size: 16px;
     line-height: 1.6;
 }
 
-.bottom {
+.caption .bottom {
     position: absolute;
     width: 100%;
     bottom: 10px;
@@ -53,17 +82,44 @@ body {
 
 .actions .btn {
     color: #fff;
-    background-color: #cacfd2;
+    background-color: #bdc3c7;
     margin-right: 5px;
     line-height: 1.3;
 }
 
+.projects .row .actions {
+    float: right;
+}
+
+.projects .row .btn {
+    width: 80px;
+}
+
+.actions .btn:hover {
+    background-color: #cacfd2;
+}
+
 .actions .btn:first-child {
+    background-color: #1abc9c;
+}
+
+.actions .btn:first-child:hover {
     background-color: #48c9b0;
 }
 
 .actions .btn:last-child {
+    background-color: #3498db;
+}
+
+.actions .btn:last-child:hover {
     background-color: #5dade2;
+}
+
+.row .title {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
 }
 
 .tags {

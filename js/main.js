@@ -10,6 +10,11 @@ $(function () {
             title: 'projects-grid',
             data: 'projects',
             template: 'projects-grid'
+        },
+        "projects-list": {
+            title: 'projects-list',
+            data: 'projects',
+            template: 'projects-list'
         }
     };
 
@@ -19,23 +24,24 @@ $(function () {
     function load(page) {
         console.log('Loading ' + page.title);
 
-        if (!templates.hasOwnProperty(page.template) || !data.hasOwnProperty(page.data)) {
-            console.log('Cache miss for ' + page.title);
-            $.when(
-                $.get('templates/' + page.template + '.mst', function (template) {
+            var promises = [];
+            if(!templates.hasOwnProperty(page.template)) {
+                promises.push($.get('templates/' + page.template + '.mst', function (template) {
                     templates[page.template] = template;
-                }),
-                $.getJSON('data/' + page.data + '.json', function (json) {
+                }));
+            }
+            if(!data.hasOwnProperty(page.data)) {
+                promises.push($.getJSON('data/' + page.data + '.json', function (json) {
                     data[page.data] = json;
-                })
+                }));
+            }
+            $.when.apply(
+                $, promises
             ).done(function () {
                 render(page);
             }).fail(function() {
                 console.log('Load failed!');
             });
-        } else {
-            render(page);
-        }
     }
 
     function render(page) {
