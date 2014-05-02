@@ -1,18 +1,80 @@
+/****************************
+ *         General          *
+ ****************************/
+html {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
 body {
-    background-color: #f3f4f5;
+    background-color: #e5e5e5;
+    padding-top: 65px;
+    height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 60px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 .clear {
     clear: both;
 }
 
-.content {
-    margin-top: 70px;
-    text-align: center;
+.navbar .container {
+    margin-left: 100px;
 }
 
+.content {
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 40px;
+}
+
+h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+/****************************
+ *         Projects         *
+ ****************************/
+
 .projects {
-    display: inline-block;
+    text-align: center;
 }
 
 .projects .row {
@@ -52,6 +114,19 @@ body {
 }
 
 .preview img {
+    cursor: pointer;
+    position: relative;
+}
+
+.small-preview {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+}
+
+.small-preview img {
+    height: 60px;
+    width: auto;
     position: relative;
 }
 
@@ -61,12 +136,6 @@ body {
     padding-left: 10px;
     float: right;
     position: relative;
-}
-
-h3 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-size: 30px;
 }
 
 .description {
@@ -92,7 +161,7 @@ h3 {
 }
 
 .projects .row .btn {
-    width: 80px;
+    min-width: 80px;
 }
 
 .actions .btn:hover {
@@ -115,13 +184,6 @@ h3 {
     background-color: #5dade2;
 }
 
-.row .title {
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    width: 100%;
-}
-
 .tags {
     margin-bottom: 10px;
 }
@@ -131,7 +193,6 @@ h3 {
     background-color: #415b76;
     color: #ffffff;
     font-size: 12px;
-    cursor: pointer;
     display: inline-block;
     margin-right: 4px;
     margin-bottom: 4px;
@@ -140,4 +201,71 @@ h3 {
     padding: 6px 10px 6px 10px;
     position: relative;
     vertical-align: middle;
+}
+
+/****************************
+ *          Resume          *
+ ****************************/
+
+.resume {
+}
+
+.summary {
+    width: 300px;
+    position: fixed;
+    top: 80px;
+    margin-left: 10px;
+}
+
+.resume_content {
+    width: 70%;
+    float: right;
+}
+
+.experience {
+    margin-bottom: 10px;
+}
+
+.resume h3 {
+    float: left;
+    color: #1abc9c;
+    margin-bottom: 0px;
+}
+
+.resume .duration {
+    float: right;
+    color: #3498db;
+    margin-bottom: 0px;
+}
+
+.experience .title {
+    color: #3498db;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.links img {
+    margin-right: 5px;
+}
+
+.links a {
+    color: #000;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #666;
+}
+
+.skills .tag {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.skills p {
+    margin-bottom: 20px;
+}
+
+.experience .achievement {
+    font-size: 16px;
 }

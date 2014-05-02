@@ -1,133 +1,73 @@
-[
-    {
-        "title": "jsfxr",
-        "image": "img/projects/jsfxr.png",
-        "description": "<a href=\"http://code.google.com/p/as3sfxr/\">as3fxr</a> synth port to JavaScript created for <a href=\"http://js13kgames.com/\">js13kGames</a>. Minified size of 2517 bytes",
-        "actions": [
-            {
-                "title": "Demo",
-                "url": "projects/jsfxr/demo.html"
-            },
-            {
-                "title": "Source",
-                "url": "https://github.com/mneubrand/jsfxr"
-            }
-        ],
-        "tags": [
-            "JavaScript"
-        ]
-    },
-    {
-        "title": "Drill, Baby, Drill",
-        "image": "img/projects/drill-baby-drill.png",
-        "description": "<a href=\"http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&uid=11653\">Ludum Dare 29</a> entry (Theme \"Beneath the surface\"). Drill for oil through different materials.",
-        "actions": [
-            {
-                "title": "Play",
-                "url": "projects/drill-baby-drill/index.html"
-            },
-            {
-                "title": "Source",
-                "url": "https://github.com/mneubrand/drill-baby-drill"
-            }
-        ],
-        "tags": [
-            "JavaScript", "Competition", "Canvas"
-        ]
-    },
-    {
-        "title": "bomb.js",
-        "image": "img/projects/bomb.js.png",
-        "description": "Bomberman clone for the <a href=\"http://js13kgames.com/entries/2012\">js13kGames</a>",
-        "actions": [
-            {
-                "title": "Play",
-                "url": "projects/bomb.js/index_full.html"
-            },
-            {
-                "title": "Source",
-                "url": "https://github.com/mneubrand/bomb.js"
-            }
-        ],
-        "tags": [
-            "JavaScript", "Competition", "Canvas"
-        ]
-    },
-    {
-        "title": "Mat(c)h",
-        "image": "img/projects/match.png",
-        "description": "Match 3 game with a mathematical twist. Originally written with the Marmalade SDK for the BlackBerry Playbook. Ported to JavaScript",
-        "actions": [
-            {
-                "title": "Play",
-                "url": "projects/match/javascript/game.html"
-            },
-            {
-                "title": "Trailer",
-                "url": "http://youtu.be/53-R_h437EI"
-            },
-            {
-                "title": "Source",
-                "url": "https://github.com/mneubrand/mat-c-h"
-            }
-        ],
-        "tags": [
-            "JavaScript", "Lua", "Marmalade"
-        ]
-    },
-
-    {
-        "title": "Bacterial World",
-        "image": "img/projects/bacterial-world.png",
-        "description": "<a href=\"http://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=11653\">Ludum Dare 23</a> entry (Theme \"Tiny World\"). Simple endless runner game.",
-        "actions": [
-            {
-                "title": "Play",
-                "url": "projects/bacterial-world/index.html"
-            },
-            {
-                "title": "Source",
-                "url": "https://github.com/mneubrand/bacterial-world"
-            }
-        ],
-        "tags": [
-            "JavaScript", "Competition", "Canvas"
-        ]
-    },
-    {
-        "title": "Candy King – Cease and Desist Saga",
-        "image": "img/projects/candy-king.png",
-        "description": "Simple prototype developed for <a href=\"http://itch.io/jam/candyjam\">Candy Jam</a>",
-        "actions": [
-            {
-                "title": "Play",
-                "url": "projects/candyking/WebPlayer/CandyKing/CandyKing.html"
-            },
-            {
-                "title": "Source",
-                "url": "https://github.com/mneubrand/candyking"
-            }
-        ],
-        "tags": [
-            "Unity", "C#", "Competition"
-        ]
-    },
-    {
-        "title": "Pot Fall",
-        "image": "img/projects/pot-fall.png",
-        "description": "Prototype created for the Game Prototype Challenge v12 (Theme \"Flower Momentum\"). Steer a falling flower pot",
-        "actions": [
-            {
-                "title": "Play",
-                "url": "projects/pot-fall/index.html"
-            },
-            {
-                "title": "Source",
-                "url": "https://github.com/mneubrand/pot-fall"
-            }
-        ],
-        "tags": [
-            "JavaScript", "Competition", "Canvas"
-        ]
-    }
-]
+{
+    "section": "projects",
+    "content": [
+        {
+            "title": "Portfolio Site",
+            "image": "img/projects/portfolio.png",
+            "description": "Portfolio page showing current/previous projects and games",
+            "actions": [
+                {
+                    "title": "Source",
+                    "url": "https://github.com/mneubrand/mneubrand.github.io"
+                }
+            ],
+            "tags": [
+                "jQuery", "Bootstrap", "mustache.js"
+            ]
+        },
+        {
+            "title": "jsfxr",
+            "image": "img/projects/jsfxr.png",
+            "description": "<a href=\"http://code.google.com/p/as3sfxr/\">as3fxr</a> synth port to JavaScript created for <a href=\"http://js13kgames.com/\">js13kGames</a>. Minified size of 2517 bytes",
+            "actions": [
+                {
+                    "title": "Demo",
+                    "url": "projects/jsfxr/demo.html"
+                },
+                {
+                    "title": "Source",
+                    "url": "https://github.com/mneubrand/jsfxr"
+                }
+            ],
+            "tags": [
+                "JavaScript"
+            ]
+        },
+        {
+            "title": "XMLVM",
+            "image": "img/projects/xmlvm.png",
+            "description": "Cross-compilation toolchain for multiple targets (e.g. Android to iPhone, etc.). Contributor on the iPhone C backend, WP7 backend and various other parts of the project.",
+            "actions": [
+                {
+                    "title": "Overview",
+                    "url": "http://xmlvm.org/overview/"
+                },
+                {
+                    "title": "Source",
+                    "url": "http://sourceforge.net/p/xmlvm/code/HEAD/tree/"
+                }
+            ],
+            "tags": [
+                "C#", "Java", "XSLT", "C"
+            ]
+        },
+        {
+            "title": "Scribble Smart",
+            "image": "img/projects/scribble.png",
+            "description": "Open sourced Android application for in-call note taking. Originally an entry to the Evernote Devcup.",
+            "actions": [
+                {
+                    "title": "Trailer",
+                    "url": "http://www.youtube.com/watch?v=mTWqDmDsjmk"
+                },
+                {
+                    "title": "Source",
+                    "url": "https://github.com/mneubrand/scribble-smart"
+                }
+            ],
+            "tags": [
+                "Java", "Android"
+            ]
+        }
+    ]
+}

@@ -4,17 +4,37 @@
 
 $(function () {
 
-    var firstPage = 'projects-grid';
+    var firstPage = 'resume';
     var pages = {
-        "projects-grid": {
-            title: 'projects-grid',
+        "projects": {
+            title: 'projects',
             data: 'projects',
-            template: 'projects-grid'
+            template: 'projects-grid',
+            navlink: '#projects'
         },
         "projects-list": {
             title: 'projects-list',
             data: 'projects',
-            template: 'projects-list'
+            template: 'projects-list',
+            navlink: '#projects'
+        },
+        "games": {
+            title: 'games',
+            data: 'games',
+            template: 'projects-grid',
+            navlink: '#games'
+        },
+        "games-list": {
+            title: 'games-list',
+            data: 'games',
+            template: 'projects-list',
+            navlink: '#games'
+        },
+        "resume": {
+            title: 'resume',
+            data: 'resume',
+            template: 'resume',
+            navlink: '#resume'
         }
     };
 
@@ -24,29 +44,38 @@ $(function () {
     function load(page) {
         console.log('Loading ' + page.title);
 
-            var promises = [];
-            if(!templates.hasOwnProperty(page.template)) {
-                promises.push($.get('templates/' + page.template + '.mst', function (template) {
-                    templates[page.template] = template;
-                }));
+        var promises = [];
+        if(!templates.hasOwnProperty(page.template)) {
+            promises.push($.get('templates/' + page.template + '.mst', function (template) {
+                templates[page.template] = template;
+            }));
+        }
+        if(!data.hasOwnProperty(page.data)) {
+            promises.push($.getJSON('data/' + page.data + '.json', function (json) {
+                data[page.data] = json;
+            }));
+        }
+        $.when.apply(
+            $, promises
+        ).done(function () {
+            render(page);
+        }).fail(function() {
+            console.log('Load failed!');
+        });
+
+        $('#main-nav > li').each(function() {
+            if($(this).children(':first-child').attr('href') == page.navlink) {
+                $(this).addClass('active');
+            } else {
+                $(this).removeClass('active');
             }
-            if(!data.hasOwnProperty(page.data)) {
-                promises.push($.getJSON('data/' + page.data + '.json', function (json) {
-                    data[page.data] = json;
-                }));
-            }
-            $.when.apply(
-                $, promises
-            ).done(function () {
-                render(page);
-            }).fail(function() {
-                console.log('Load failed!');
-            });
+        });
     }
 
     function render(page) {
         console.log('Rendering ' + page.title);
         $('#main').html(Mustache.render(templates[page.template], data[page.data]));
+        console.log(Mustache.render(templates[page.template], data[page.data]));
     }
 
     function hashChange() {
