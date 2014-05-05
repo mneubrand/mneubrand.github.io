@@ -166,6 +166,14 @@ h3 {
     min-width: 80px;
 }
 
+.row .actions {
+    text-align: right;
+}
+
+.row .actions .btn {
+    margin-bottom: 5px;
+}
+
 .actions .btn:hover {
     background-color: #cacfd2;
 }
@@ -222,6 +230,38 @@ h3 {
         height: 100px;
         width: auto;
         position: relative;
+    }
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 620px) {
+    .project {
+        height: auto;
+        width: 90%;
+        margin: 10px;
+        padding: 10px;
+        background-color: #ffffff;
+        display: inline-block;
+    }
+
+    .preview {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        float: none;
+    }
+
+    .project .caption {
+        height: auto;
+        width: 100%;
+        padding-left: 10px;
+        float: none;
+    }
+
+    .caption .bottom {
+        position: static;
+        width: 100%;
+        bottom: 0;
     }
 }
 

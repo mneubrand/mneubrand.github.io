@@ -75,7 +75,6 @@ $(function () {
     function render(page) {
         console.log('Rendering ' + page.title);
         $('#main').html(Mustache.render(templates[page.template], data[page.data]));
-        console.log(Mustache.render(templates[page.template], data[page.data]));
     }
 
     function hashChange() {

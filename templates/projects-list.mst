@@ -2,7 +2,7 @@
 
      <div class="btn-toolbar">
         <div class="btn-group">
-            <a class="btn btn-primary" href="#{{section}}-grid"><span class="glyphicon glyphicon-th-large"></span></a>
+            <a class="btn btn-primary" href="#{{section}}"><span class="glyphicon glyphicon-th-large"></span></a>
             <a class="btn btn-primary active" href="#{{section}}-list"><span class="glyphicon glyphicon-align-justify"></span></a>
         </div>
     </div>

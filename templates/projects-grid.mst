@@ -13,16 +13,19 @@ $('.preview').mousemove(function(e) {
     //$(this).children(':first').css('left', '0').css('top', '0');
 })
 
-$('.preview > img').each(function() {
-    $(this).colorbox({ href: $(this).attr('src'), title: $(this).attr('alt') });
-});
+// Only if desktop (max-width > 620)
+if($('.preview').css('float') != 'none') {
+    $('.preview > img').each(function() {
+        $(this).colorbox({ href: $(this).attr('src'), title: $(this).attr('alt') });
+    });
+}
 </script>
 
 <div class="projects">
 
     <div class="btn-toolbar">
         <div class="btn-group">
-            <a class="btn btn-primary active" href="#{{section}}-grid"><span class="glyphicon glyphicon-th-large"></span></a>
+            <a class="btn btn-primary active" href="#{{section}}"><span class="glyphicon glyphicon-th-large"></span></a>
             <a class="btn btn-primary" href="#{{section}}-list"><span class="glyphicon glyphicon-align-justify"></span></a>
         </div>
     </div>
