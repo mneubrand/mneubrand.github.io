@@ -41,14 +41,16 @@ body {
     clear: both;
 }
 
-.navbar .container {
-    margin-left: 100px;
-}
-
 .content {
     width: 1250px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
 }
 
 h1 {
@@ -203,6 +205,26 @@ h3 {
     vertical-align: middle;
 }
 
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    .projects .row .actions {
+        float: none;
+    }
+
+    .small-preview {
+        height: 100px;
+        width: 100px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .small-preview img {
+        height: 100px;
+        width: auto;
+        position: relative;
+    }
+}
+
 /****************************
  *          Resume          *
  ****************************/
@@ -211,10 +233,9 @@ h3 {
 }
 
 .summary {
-    width: 300px;
-    position: fixed;
-    top: 80px;
-    margin-left: 10px;
+    width: 28%;
+    float: left;
+    margin-right: 2%;
 }
 
 .resume_content {
@@ -268,4 +289,17 @@ h3 {
 
 .experience .achievement {
     font-size: 16px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    .summary {
+        width: auto;
+        float: none;
+    }
+
+    .resume_content {
+        width: auto;
+        float: none;
+    }
 }
