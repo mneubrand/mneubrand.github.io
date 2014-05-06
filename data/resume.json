@@ -1,15 +1,34 @@
 {
-    "summary": "<p>I'm a dedicated Software Engineer with extensive experience in various programming languages (Java, C#, JavaScript, C/C++), stacks and environments. Recently my focus has been mobile development.</p><p>Capable of full-stack work, I enjoy learning the intricacies of new technologies and adopting them quickly. I strive to be a pragmatic programmer and produce maintainable code and extensible architectures.</p>",
+    "summary": [
+        "I'm a dedicated Software Engineer with extensive experience in various programming languages (Java, C#, JavaScript, C/C++), stacks and environments. Recently my focus has been mobile development.",
+        "Capable of full-stack work, I enjoy learning the intricacies of new technologies and adopting them quickly. I strive to be a pragmatic programmer and produce maintainable code and extensible architectures."
+    ],
     "skills": [
       [ "Java", "C#", "JavaScript", "C/C++", "PHP", "SQL" ],
       [ "Android SDK/NDK", "jQuery", "Unity 3D", "Drupal", "CodeIgniter", "JUnit/NUnit/CppUnit" ],
       [ "Eclipse", "WebStorm", "git", "svn", "Jira", "Jenkins" ]
     ],
     "links": [
-        "<a href=\"mailto:markus.neubrand@gmail.com\"><img src=\"img/glyphicons_social/png/glyphicons_social_39_e-mail.png\" />markus.neubrand@gmail.com</a>",
-        "<a href=\"http://www.linkedin.com/in/mneubrand\"><img src=\"img/glyphicons_social/png/glyphicons_social_17_linked_in.png\" />LinkedIn</a>",
-        "<a href=\"http://github.com/mneubrand\"><img src=\"img/glyphicons_social/png/glyphicons_social_21_github.png\" />GitHub</a>",
-        "<a href=\"https://twitter.com/markusneubrand\"><img src=\"img/glyphicons_social/png/glyphicons_social_31_twitter.png\" />@markusneubrand</a>"
+        {
+            "url": "mailto:markus.neubrand@gmail.com",
+            "icon": "img/glyphicons_social/png/glyphicons_social_39_e-mail.png",
+            "title": "markus.neubrand@gmail.com"
+        },
+        {
+            "url": "http://www.linkedin.com/in/mneubrand",
+            "icon": "img/glyphicons_social/png/glyphicons_social_17_linked_in.png",
+            "title": "LinkedIn"
+        },
+        {
+            "url": "http://github.com/mneubrand",
+            "icon": "img/glyphicons_social/png/glyphicons_social_21_github.png",
+            "title": "GitHub"
+        },
+        {
+            "url": "https://twitter.com/mneubrand",
+            "icon": "img/glyphicons_social/png/glyphicons_social_31_twitter.png",
+            "title": "@mneubrand"
+        }
     ],
     "experience": [
         {

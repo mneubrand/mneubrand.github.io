@@ -278,6 +278,10 @@ h3 {
     margin-right: 2%;
 }
 
+.intro {
+    margin-top: 15px;
+}
+
 .resume_content {
     width: 70%;
     float: right;

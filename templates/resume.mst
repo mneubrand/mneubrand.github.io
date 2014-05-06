@@ -1,10 +1,14 @@
 <div class="resume">
 
     <div class="summary">
-      <p>{{{summary}}}</p>
+      <div class="intro">
+        {{#summary}}
+            <p>{{{.}}}</p>
+        {{/summary}}
+      </div>
       <div class="links">
         {{#links}}
-            <p>{{{.}}}</p>
+            <p><a href="{{url}}"><img src="{{icon}}" />{{title}}</a></p>
         {{/links}}
       </div>
     </div>
