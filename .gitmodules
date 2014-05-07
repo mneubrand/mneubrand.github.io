@@ -19,3 +19,6 @@
 [submodule "projects/candyking"]
 	path = projects/candyking
 	url = https://github.com/mneubrand/candyking.git
+[submodule "projects/survival"]
+	path = projects/survival
+	url = https://github.com/mneubrand/survival.git

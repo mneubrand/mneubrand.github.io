@@ -2,6 +2,24 @@
     "section": "games",
     "content": [
         {
+            "title": "SURVIVAL",
+            "image": "img/projects/survival.png",
+            "description": "<a href=\"jams.gamejolt.io/lowrezjam2014\">#LOWREZJAM</a> entry. 32x32 pixel survival horror platformer",
+            "actions": [
+                {
+                    "title": "Play",
+                    "url": "projects/survival/index.html"
+                },
+                {
+                    "title": "Source",
+                    "url": "https://github.com/mneubrand/survival"
+                }
+            ],
+            "tags": [
+                "JavaScript", "Competition", "Canvas"
+            ]
+        },
+        {
             "title": "Drill, Baby, Drill",
             "image": "img/projects/drill-baby-drill.png",
             "description": "<a href=\"http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&uid=11653\">Ludum Dare 29</a> entry (Theme \"Beneath the surface\"). Drill for oil through different materials.",
