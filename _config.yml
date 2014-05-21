@@ -1,3 +1,4 @@
 markdown: rdiscount
 highlighter: pygment
-permalink: /:title
+permalink: /index/:title
+paginate: 8

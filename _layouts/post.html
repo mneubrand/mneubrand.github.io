@@ -1,4 +1,12 @@
 ---
 layout: default
 ---
-{{ content }}
+<article class="post">
+    <header class="post-header">
+        <span class="post-meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%d %B %Y' }}</time></span>
+        <h3 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
+    </header>
+    <section class="post-content">
+        {{ content }}
+    </section>
+</article>

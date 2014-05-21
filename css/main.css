@@ -108,6 +108,19 @@ h3 {
     display: block;
 }
 
+.pagination {
+    text-align: center;
+    width: 300px;
+    background-color: #ffffff;
+    margin: 10px auto;
+    display: block;
+}
+
+.pagination span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /****************************
  *         Projects         *
  ****************************/
