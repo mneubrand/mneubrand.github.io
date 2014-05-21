@@ -72,6 +72,43 @@ h3 {
 }
 
 /****************************
+ *           Blog           *
+ ****************************/
+
+.post {
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.post-meta {
+    float: right;
+    color: #666;
+    font-size: 0.8em;
+}
+
+.post p {
+    font-size: 0.9em;
+}
+
+.post td {
+    padding: 5px;
+}
+
+.post img {
+    max-width: 60%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+
+.post iframe {
+    margin: 10px auto;
+    display: block;
+}
+
+/****************************
  *         Projects         *
  ****************************/
 

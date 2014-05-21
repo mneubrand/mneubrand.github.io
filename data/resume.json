@@ -30,7 +30,7 @@
             "title": "@mneubrand"
         }
     ],
-    "experience": [
+    "experiences": [
         {
             "name": "GREE International, Inc.",
             "location": "San Francisco, CA, USA",
@@ -111,7 +111,7 @@
             ]
         }
     ],
-    "education": [
+    "educations": [
         {
             "title": "Master of Science, Computer Science",
             "institution": "San Francisco State University",

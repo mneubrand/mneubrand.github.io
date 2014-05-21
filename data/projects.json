@@ -4,7 +4,7 @@
         {
             "title": "Portfolio Site",
             "image": "img/projects/portfolio.png",
-            "description": "Portfolio page showing current/previous projects and games",
+            "description": "Portfolio page with blog, resume and current/previous projects and games",
             "actions": [
                 {
                     "title": "Source",
@@ -12,7 +12,7 @@
                 }
             ],
             "tags": [
-                "jQuery", "Bootstrap", "mustache.js"
+                "jQuery", "Bootstrap", "Jekyll"
             ]
         },
         {
