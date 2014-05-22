@@ -76,10 +76,37 @@ h3 {
  ****************************/
 
 .post {
-    width: 90%;
     margin: 10px auto;
     padding: 20px;
     background-color: #ffffff;
+}
+
+.bio {
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.bio p {
+    font-size: 0.9em;
+}
+
+.recent {
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.recent ul {
+    padding-left: 20px;
+}
+
+.more {
+    font-size: 0.8em;
+}
+
+.comments {
+    margin-top: 40px;
 }
 
 .post-meta {

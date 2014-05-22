@@ -4,9 +4,27 @@ layout: default
 <article class="post">
     <header class="post-header">
         <span class="post-meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%d %B %Y' }}</time></span>
-        <h3 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
+        <h3 class="post-title">{{ page.title }}</h3>
     </header>
     <section class="post-content">
         {{ content }}
+    </section>
+    <hr/>
+    <section class="comments">
+        <h5>Comments Section</h5>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'mneubrand'; // required: replace example with your forum shortname
+            var disqus_identifier = '{{ page.url }}';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     </section>
 </article>
