@@ -1,0 +1,69 @@
+---
+layout: default
+title: Blog
+---
+<div class="row">
+    <div class="col-md-3 col-md-push-9">
+        <div class="bio">
+            <h3>Hi, I'm Markus</h3>
+            <p>I'm a Software Engineer and hobby game developer regularly participating in game jams.</p>
+            <a href="https://twitter.com/mneubrand" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="large">Follow @mneubrand</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        <div class="recent">
+            <h3>Recent posts</h3>
+            <ul>
+                {% for post in site.posts offset: 0 limit: 5 %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-9 col-md-pull-3">
+        {% for post in paginator.posts %}
+        <article class="post">
+            <header class="post-header">
+                <span class="post-meta"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %B %Y' }}</time></span>
+                <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            </header>
+            <section class="post-content">
+                {{ post.content }}
+            </section>
+            <section class="more">
+                <span class="glyphicon glyphicon-comment"></span> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
+            </section>
+        </article>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+    {% if paginator.previous_page %}
+    <span class="previous"><a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a></span>
+    {% else %}
+    <span class="previous">Previous</span>
+    {% endif %}
+
+    <span class="page_number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+    <span class="next"><a href="/blog/page{{ paginator.next_page }}" class="next">Next</a></span>
+    {% else %}
+    <span class="next">Next</span>
+    {% endif %}
+</div>
+
+<script type="text/javascript">
+    var disqus_shortname = 'mneubrand'; // required: replace example with your forum shortname
+    var disqus_identifier = '{{ post.url }}';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
