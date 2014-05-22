@@ -2,31 +2,39 @@
 layout: default
 title: Blog
 ---
-{% for post in paginator.posts offset: 0 limit: 10 %}
-    <article class="post">
-        <header class="post-header">
-            <span class="post-meta"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %B %Y' }}</time></span>
-            <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        </header>
-        <section class="post-content">
-            {{ post.content }}
-        </section>
-    </article>
-{% endfor %}
+<div class="row">
+    <div class="col-md-3 col-md-push-9">
+
+    </div>
+
+    <div class="col-md-9 col-md-pull-3">
+        {% for post in paginator.posts offset: 0 limit: 10 %}
+        <article class="post">
+            <header class="post-header">
+                <span class="post-meta"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %B %Y' }}</time></span>
+                <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            </header>
+            <section class="post-content">
+                {{ post.content }}
+            </section>
+        </article>
+        {% endfor %}
+    </div>
+</div>
 
 <!-- Pagination links -->
 <div class="pagination">
     {% if paginator.previous_page %}
-        <span class="previous"><a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a></span>
+    <span class="previous"><a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a></span>
     {% else %}
-        <span class="previous">Previous</span>
+    <span class="previous">Previous</span>
     {% endif %}
 
     <span class="page_number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
     {% if paginator.next_page %}
-        <span class="next"><a href="/blog/page{{ paginator.next_page }}" class="next">Next</a></span>
+    <span class="next"><a href="/blog/page{{ paginator.next_page }}" class="next">Next</a></span>
     {% else %}
-        <span class="next">Next</span>
+    <span class="next">Next</span>
     {% endif %}
 </div>
