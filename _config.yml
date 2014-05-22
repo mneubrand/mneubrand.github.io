@@ -1,4 +1,5 @@
 markdown: rdiscount
 highlighter: pygment
-permalink: /index/:title
+permalink: /blog/:title
+paginate_path: /blog/page:num
 paginate: 8

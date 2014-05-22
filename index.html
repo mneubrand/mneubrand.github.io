@@ -17,7 +17,7 @@ title: Blog
 <!-- Pagination links -->
 <div class="pagination">
     {% if paginator.previous_page %}
-        <span class="previous"><a href="/page{{ paginator.previous_page }}" class="previous">Previous</a></span>
+        <span class="previous"><a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a></span>
     {% else %}
         <span class="previous">Previous</span>
     {% endif %}
@@ -25,7 +25,7 @@ title: Blog
     <span class="page_number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
     {% if paginator.next_page %}
-        <span class="next"><a href="/page{{ paginator.next_page }}" class="next">Next</a></span>
+        <span class="next"><a href="/blog/page{{ paginator.next_page }}" class="next">Next</a></span>
     {% else %}
         <span class="next">Next</span>
     {% endif %}

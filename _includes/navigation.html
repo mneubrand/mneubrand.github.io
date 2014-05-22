@@ -12,10 +12,10 @@
 
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav" id="main-nav">
-                <li class="{% active_page /index %}"><a data-toggle="collapse" data-target=".navbar-collapse" href="/">Blog</a></li>
-                <li class="{% active_page /resume %}"><a data-toggle="collapse" data-target=".navbar-collapse" href="/resume.html">Resume & Contact</a></li>
-                <li class="{% active_page /projects %}"><a data-toggle="collapse" data-target=".navbar-collapse" href="/projects-grid.html">Projects</a></li>
-                <li class="{% active_page /games %}"><a data-toggle="collapse" data-target=".navbar-collapse" href="/games-grid.html">Games</a></li>
+                <li class="{% if page.url == '/index.html' or page.url contains '/blog/' %}active{% endif %}"><a data-toggle="collapse" data-target=".navbar-collapse" href="/">Blog</a></li>
+                <li class="{% if page.url == '/resume.html' %}active{% endif %}"><a data-toggle="collapse" data-target=".navbar-collapse" href="/resume.html">Resume & Contact</a></li>
+                <li class="{% if page.url contains '/projects' %}active{% endif %}"><a data-toggle="collapse" data-target=".navbar-collapse" href="/projects-grid.html">Projects</a></li>
+                <li class="{% if page.url contains '/games' %}active{% endif %}"><a data-toggle="collapse" data-target=".navbar-collapse" href="/games-grid.html">Games</a></li>
             </ul>
         </div>
     </div>
