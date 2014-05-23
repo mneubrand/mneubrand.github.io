@@ -119,6 +119,15 @@ h3 {
     font-size: 0.9em;
 }
 
+.post table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post th {
+    padding: 5px;
+}
+
 .post td {
     padding: 5px;
 }
