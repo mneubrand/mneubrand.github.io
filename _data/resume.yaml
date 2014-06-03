@@ -50,7 +50,7 @@
       title: "Senior Software Engineer"
       achievements: 
         - "Developed and successfully shipped casino franchise Android titles (Jackpot Slots, Jackpot Bingo) with Jackpot Slots reaching #6 Top Grossing in the United States"
-        - "Acted as technical lead for Jackpot Slots client team"
+        - "Acted as technical lead for Jackpot Slots client team and reduced crash rate, introduced better release monitoring and peer code review"
         - "Working on unannounced Unity 3D title"
     - 
       name: "Deutsche Telekom Inc."
@@ -59,7 +59,7 @@
       end_date: "November 2012"
       title: "Software Engineer"
       achievements: 
-        - "Developed NFC support for Firefox OS (formerly Boot2Gecko) in cooperation with Mozilla"
+        - "Developed NFC support for Firefox OS (formerly Boot2Gecko) based on Android in cooperation with Mozilla"
         - "Developed Android based sensor application for earthquake early warning system in cooperation with UC Berkeley"
     - 
       name: "San Francisco State University"
