@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ludum Dare 29 Results
-date: 2014-05-22 00:00:00
+date: 2014-05-23 00:00:00
 ---
 The last Ludum Dare I participated in was Ludum Dare 23 back in April 2012. Since then I've always found some excuse to not participate. But for Ludum Dare 29
 I finally pulled through and participated again. You can play my entry, "Drill Baby Drill", [here](projects/drill-baby-drill/index.html) and find the source on
