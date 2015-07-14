@@ -36,7 +36,7 @@
         {
             "title": "Meet in the middle",
             "image": "img/projects/mitm.png",
-            "description": "Open sourced Android application for in-call note taking. Originally an entry to the Evernote Devcup.",
+            "description": "Simple app to find a meeting spot in the middle of several addresses.",
             "actions": [
                 {
                     "title": "Demo",
@@ -48,7 +48,7 @@
                 }
             ],
             "tags": [
-                "Java", "Android"
+                "JavaScript", "Bootstrap", "Google Maps API"
             ]
         },
         {
