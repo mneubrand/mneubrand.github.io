@@ -34,6 +34,24 @@
             ]
         },
         {
+            "title": "Meet in the middle",
+            "image": "img/projects/mitm.png",
+            "description": "Open sourced Android application for in-call note taking. Originally an entry to the Evernote Devcup.",
+            "actions": [
+                {
+                    "title": "Demo",
+                    "url": "projects/meet-in-the-middle/demo.html"
+                },
+                {
+                    "title": "Source",
+                    "url": "https://github.com/mneubrand/meet-in-the-middle"
+                }
+            ],
+            "tags": [
+                "Java", "Android"
+            ]
+        },
+        {
             "title": "XMLVM",
             "image": "img/projects/xmlvm.png",
             "description": "Cross-compilation toolchain for multiple targets (e.g. Android to iPhone, etc.). Contributor on the iPhone C backend, WP7 backend and various other parts of the project.",
