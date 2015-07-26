@@ -34,7 +34,7 @@
             ]
         },
         {
-            "title": "Meet in the middle",
+            "title": "Meet in the Middle",
             "image": "img/projects/mitm.png",
             "description": "Simple app to find a meeting spot in the middle of several addresses.",
             "actions": [
