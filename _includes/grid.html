@@ -2,22 +2,22 @@
 
     <div class="btn-toolbar">
         <div class="btn-group">
-            <a class="btn btn-primary active" href="{{ data.section }}-grid.html"><span class="glyphicon glyphicon-th-large"></span></a>
-            <a class="btn btn-primary" href="{{ data.section }}-list.html"><span class="glyphicon glyphicon-align-justify"></span></a>
+            <a class="btn btn-primary active" href="{{ data.section }}-grid.html"><i class="fa fa-table"></i></a>
+            <a class="btn btn-primary" href="{{ data.section }}-list.html"><i class="fa fa-bars"></i></a>
         </div>
     </div>
 
     {% for entry in data.content %}
-        <div class="project">
+        <div class="project panel panel-default">
 
-            <div class="preview">
+            <div class="preview panel panel-default">
                 <img src="{{ entry.image }}" alt="{{ entry.title }}"/>
             </div>
 
             <div class="caption">
                 {% assign first = entry.actions | first %}
                 <a href="{{ first.url }}">
-                    <h3>{{ entry.title }}</h3>
+                    <h3 class="text-primary">{{ entry.title }}</h3>
                 </a>
 
                 <p class="description">{{ entry.description }}</p>
@@ -31,7 +31,7 @@
 
                     <div class="actions">
                         {% for action in entry.actions %}
-                            <a class="btn" href="{{ action.url }}">{{ action.title }} &raquo;</a>
+                            <a class="btn btn-primary" href="{{ action.url }}">{{ action.title }} &raquo;</a>
                         {% endfor %}
                     </div>
                 </div>
@@ -41,26 +41,3 @@
         </div>
     {% endfor %}
 </div>
-
-<script>
-    $('.preview').mousemove(function(e) {
-        var preview = $(this);
-        var previewWidth = preview.width();
-        var previewHeight = preview.height();
-        var offset = preview.offset();
-        var relX = (e.pageX - offset.left) / previewWidth;
-        var relY = (e.pageY - offset.top) / previewHeight;
-
-        var child = preview.children(':first');
-        child.css('left', (-relX * (child.width() - previewWidth)) + 'px').css('top', (-relY * (child.height() - previewHeight)) + 'px');
-    }).mouseout(function(e) {
-                //$(this).children(':first').css('left', '0').css('top', '0');
-            });
-
-    // Only if desktop (max-width > 620)
-    if($('.preview').css('float') != 'none') {
-        $('.preview > img').each(function() {
-            $(this).colorbox({ href: $(this).attr('src'), title: $(this).attr('alt') });
-        });
-    }
-</script>

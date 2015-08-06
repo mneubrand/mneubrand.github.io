@@ -2,15 +2,15 @@
 layout: default
 title: Blog
 ---
-<div class="row">
-    <div class="col-md-3 col-md-push-9">
-        <div class="bio">
+<div class="blog row">
+    <div class="col-right">
+        <div class="bio panel panel-default">
             <h3>Hi, I'm Markus</h3>
             <p>I'm a Software Engineer and hobby game developer regularly participating in game jams.</p>
             <a href="https://twitter.com/mneubrand" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="large">Follow @mneubrand</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
-        <div class="recent">
+        <div class="recent panel panel-default">
             <h3>Recent posts</h3>
             <ul>
                 {% for post in site.posts offset: 0 limit: 5 %}
@@ -20,17 +20,17 @@ title: Blog
         </div>
     </div>
 
-    <div class="col-md-9 col-md-pull-3">
+    <div class="col-left">
         {% for post in paginator.posts %}
-        <article class="post">
-            <header class="post-header">
+        <article class="post panel panel-default">
+            <header class="panel-heading">
                 <span class="post-meta"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %B %Y' }}</time></span>
                 <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
             </header>
-            <section class="post-content">
+            <section class="panel-body">
                 {{ post.content }}
             </section>
-            <section class="more">
+            <section class="panel-footer">
                 <span class="glyphicon glyphicon-comment"></span> <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
             </section>
         </article>
@@ -39,21 +39,23 @@ title: Blog
 </div>
 
 <!-- Pagination links -->
-<div class="pagination">
+<ul class="pagination">
     {% if paginator.previous_page %}
-    <span class="previous"><a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a></span>
+    <li><a href="/blog/page{{ paginator.previous_page }}">«</a>
     {% else %}
-    <span class="previous">Previous</span>
+    <li class="disabled"><a href="#">«</a>
     {% endif %}
+    </li>
 
-    <span class="page_number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <li><a href="#" class="disabled">{{ paginator.page }} of {{ paginator.total_pages }}</a></li>
 
     {% if paginator.next_page %}
-    <span class="next"><a href="/blog/page{{ paginator.next_page }}" class="next">Next</a></span>
+    <li><a href="/blog/page{{ paginator.next_page }}">»</a>
     {% else %}
-    <span class="next">Next</span>
+    <li class="disabled"><a href="#">»</a>
     {% endif %}
-</div>
+    </li>
+</ul>
 
 <script type="text/javascript">
     var disqus_shortname = 'mneubrand'; // required: replace example with your forum shortname

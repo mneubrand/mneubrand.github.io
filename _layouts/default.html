@@ -9,11 +9,10 @@
 
         <!-- Bootstrap -->
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
         <!-- Optional theme -->
-        <link rel="stylesheet" href="/css/flat-ui.css">
-        <link rel="stylesheet" href="/css/colorbox.css">
         <link rel="stylesheet" href="/css/main.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -26,17 +25,15 @@
 
     <body>
 
-        <!-- Load JS here because page content might include scripts that require jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-        <script src="/js/jquery.colorbox.js"></script>
-        <script src="/js/holder.js"></script>
-
         <div id="wrap">
             {% include navigation.html %}
 
+            {% if page.wide %}
+            <div class="container-wide">
+            {% else %}
             <div class="container">
+            {% endif %}
+
                 <div id="main">
                     {{ content }}
                 </div>
@@ -47,8 +44,6 @@
 
         {% include footer.html %}
         <!-- /container -->
-
-
 
         <script>
             (function (i, s, o, g, r, a, m) {

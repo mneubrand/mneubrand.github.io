@@ -2,13 +2,13 @@
 
     <div class="btn-toolbar">
         <div class="btn-group">
-            <a class="btn btn-primary" href="{{ data.section }}-grid.html"><span class="glyphicon glyphicon-th-large"></span></a>
-            <a class="btn btn-primary active" href="{{ data.section }}-list.html"><span class="glyphicon glyphicon-align-justify"></span></a>
+            <a class="btn btn-primary" href="{{ data.section }}-grid.html"><i class="fa fa-table"></i></a>
+            <a class="btn btn-primary active" href="{{ data.section }}-list.html"><i class="fa fa-bars"></i></a>
         </div>
     </div>
 
     {% for entry in data.content %}
-        <div class="row">
+        <div class="row panel panel-default">
             <div class="col-md-1">
                 <div class="small-preview">
                     <img src="{{ entry.image }}"/>
@@ -17,7 +17,7 @@
             <div class="col-md-2">
                 <div class="title">
                     {% assign first = entry.actions | first %}
-                    <a href="{{ first.url }}"><h3>{{ entry.title }}</h3></a>
+                    <a href="{{ first.url }}"><h3 class="text-primary">{{ entry.title }}</h3></a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -31,7 +31,7 @@
             <div class="col-md-3">
                 <div class="actions">
                     {% for action in entry.actions %}
-                        <a class="btn" href="{{ action.url }}">{{ action.title }} &raquo;</a>
+                        <a class="btn btn-primary" href="{{ action.url }}">{{ action.title }} &raquo;</a>
                     {% endfor %}
                 </div>
             </div>

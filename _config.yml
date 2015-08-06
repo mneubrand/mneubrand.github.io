@@ -2,4 +2,4 @@ markdown: rdiscount
 highlighter: pygments
 permalink: /blog/:title
 paginate_path: /blog/page:num
-paginate: 8
+paginate: 5

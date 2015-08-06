@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-<article class="post">
-    <header class="post-header">
+<article class="post panel panel-default">
+    <header class="panel-heading">
         <span class="post-meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%d %B %Y' }}</time></span>
         <h3 class="post-title">{{ page.title }}</h3>
     </header>
-    <section class="post-content">
+    <section class="panel-body">
         {{ content }}
     </section>
-    <hr/>
-    <section class="comments">
+    <section class="panel-footer">
         <h5>Comments Section</h5>
         <div id="disqus_thread"></div>
         <script type="text/javascript">

@@ -4,29 +4,27 @@
         "Capable of full-stack work, I enjoy learning the intricacies of new technologies and adopting them quickly. I strive to be a pragmatic programmer and produce maintainable code and extensible architectures."
     ],
     "skills": [
-      [ "Java", "C#", "JavaScript", "C/C++", "PHP", "SQL" ],
-      [ "Android SDK/NDK", "jQuery", "Unity 3D", "Drupal", "CodeIgniter", "JUnit/NUnit/CppUnit" ],
-      [ "Eclipse", "WebStorm", "git", "svn", "Jira", "Jenkins" ]
+      [ "HTML5", "JavaScript", "Java", "C#", "C/C++", "Android SDK/NDK", "jQuery", "JUnit/NUnit/CppUnit", "git" ]
     ],
     "links": [
         {
             "url": "mailto:markus.neubrand@gmail.com",
-            "icon": "img/glyphicons_social/png/glyphicons_social_39_e-mail.png",
+            "icon": "fa-envelope-o",
             "title": "markus.neubrand@gmail.com"
         },
         {
             "url": "http://www.linkedin.com/in/mneubrand",
-            "icon": "img/glyphicons_social/png/glyphicons_social_17_linked_in.png",
+            "icon": "fa-linkedin",
             "title": "LinkedIn"
         },
         {
             "url": "http://github.com/mneubrand",
-            "icon": "img/glyphicons_social/png/glyphicons_social_21_github.png",
+            "icon": "fa-github",
             "title": "GitHub"
         },
         {
             "url": "https://twitter.com/mneubrand",
-            "icon": "img/glyphicons_social/png/glyphicons_social_31_twitter.png",
+            "icon": "fa-twitter",
             "title": "@mneubrand"
         }
     ],
