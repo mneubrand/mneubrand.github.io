@@ -30,9 +30,7 @@
             </div>
             <div class="col-md-3">
                 <div class="actions">
-                    {% for action in entry.actions %}
-                        <a class="btn btn-primary" href="{{ action.url }}">{{ action.title }} &raquo;</a>
-                    {% endfor %}
+                    {% include action-buttons.html %}
                 </div>
             </div>
         </div>

@@ -7,64 +7,82 @@ title: Resume
 <div class="resume">
 
     <div class="summary panel panel-default">
-        <div class="intro">
-            {% for paragraph in resume.summary %}
-                <p>{{ paragraph }}</p>
-            {% endfor %}
+        <div class="panel-heading">
+            <h1>Summary</h1>
         </div>
-        <div class="links">
-            {% for link in resume.links %}
-                <p><a href="{{ link.url }}"><i class="fa {{ link.icon }}"></i>{{ link.title }}</a></p>
-            {% endfor %}
+
+        <div class="panel-body">
+            <div class="intro">
+                {% for paragraph in resume.summary %}
+                    <p>{{ paragraph }}</p>
+                {% endfor %}
+            </div>
+            <div class="links">
+                {% for link in resume.links %}
+                    <p><a href="{{ link.url }}"><i class="fa {{ link.icon }}"></i>{{ link.title }}</a></p>
+                {% endfor %}
+            </div>
         </div>
     </div>
 
-    <div class="resume_content panel panel-default">
+    <div class="resume_content">
 
-        <h1>Skills</h1>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1>Skills</h1>
+            </div>
 
-        <div class="skills">
-            {% for skillCategory in resume.skills %}
-                <p>
-                    {% for skill in skillCategory %}
-                        <span class="tag label badge">{{ skill }}</span>
-                    {% endfor %}
-                </p>
+            <div class="skills panel-body">
+                {% for skillCategory in resume.skills %}
+                    <p>
+                        {% for skill in skillCategory %}
+                            <span class="tag label badge">{{ skill }}</span>
+                        {% endfor %}
+                    </p>
 
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1>Experience</h1>
+            </div>
+
+            {% for experience in resume.experiences %}
+                <div class="experience panel-body">
+                    <h3 class="text-primary">{{ experience.name }}</h3>
+                    <p class="duration text-primary">{{ experience.start_date }} - {{ experience.end_date }}</p>
+                    <div class="clear"></div>
+                    <p class="title text-primary">{{ experience.title }}</p>
+                    <ul>
+                        {% for achievement in experience.achievements %}
+                            <li class="achievement">{{ achievement }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
             {% endfor %}
         </div>
 
-        <h1>Experience</h1>
-
-        {% for experience in resume.experiences %}
-            <div class="experience">
-                <h3 class="text-primary">{{ experience.name }}</h3>
-                <p class="duration text-primary">{{ experience.start_date }} - {{ experience.end_date }}</p>
-                <div class="clear"></div>
-                <p class="title text-primary">{{ experience.title }}</p>
-                <ul>
-                    {% for achievement in experience.achievements %}
-                        <li class="achievement">{{ achievement }}</li>
-                    {% endfor %}
-                </ul>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1>Education</h1>
             </div>
-        {% endfor %}
 
-        <h1>Education</h1>
-
-        {% for education in resume.educations %}
-            <div class="education">
-                <h3 class="text-primary">{{ education.title }}</h3>
-                <p class="duration text-primary">{{ education.start_date }} - {{ education.end_date }}</p>
-                <div class="clear"></div>
-                <p class="institution text-primary">{{ education.institution }}</p>
-                <ul>
-                    {% for achievement in education.achievements %}
-                        <li class="achievement">{{ achievement }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-        {% endfor %}
+            {% for education in resume.educations %}
+                <div class="education panel-body">
+                    <h3 class="text-primary">{{ education.title }}</h3>
+                    <p class="duration text-primary">{{ education.start_date }} - {{ education.end_date }}</p>
+                    <div class="clear"></div>
+                    <p class="institution text-primary">{{ education.institution }}</p>
+                    <ul>
+                        {% for achievement in education.achievements %}
+                            <li class="achievement">{{ achievement }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
 
     </div>
 

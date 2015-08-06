@@ -1,0 +1,11 @@
+{% for action in entry.actions %}
+    {% if forloop.last %}
+        {% assign btnClass = 'btn-primary' %}
+    {% elsif forloop.first %}
+        {% assign btnClass = 'btn-success' %}
+    {% else %}
+        {% assign btnClass = 'btn-warning' %}
+    {% endif %}
+
+    <a class="btn {{ btnClass }}" href="{{ action.url }}">{{ action.title }} &raquo;</a>
+{% endfor %}

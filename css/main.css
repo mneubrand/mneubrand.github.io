@@ -16,20 +16,20 @@ body {
 }
 
 h1 {
-    margin-top: 0px;
-    margin-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     font-size: 45px;
 }
 
 h2 {
-    margin-top: 0px;
-    margin-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     font-size: 35px;
 }
 
 h3 {
-    margin-top: 0px;
-    margin-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     font-size: 25px;
 }
 
@@ -40,6 +40,10 @@ h3 {
 
 .footer {
     text-align: center;
+}
+
+.modal-dialog {
+    width: 655px;
 }
 
 /****************************
@@ -60,6 +64,36 @@ h3 {
 .blog .col-right {
     max-width: 290px;
     float: right;
+}
+
+.blog .col-right div {
+    width: 290px;
+}
+
+@media (max-width: 1200px) {
+    .blog .col-right {
+        max-width: 620px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .blog .col-right div {
+        float: left;
+        margin: 10px;
+        min-height: 230px;
+    }
+
+    .blog .col-left {
+        float: none;
+        clear: both;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 665px) {
+    .blog .col-right {
+        max-width: 310px;
+    }
 }
 
 .post {
@@ -137,11 +171,13 @@ h3 {
 }
 
 .projects .row {
-    width: 90%;
     margin: 10px auto;
     background-color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects .table {
@@ -178,13 +214,13 @@ h3 {
 }
 
 .small-preview {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     overflow: hidden;
 }
 
 .small-preview img {
-    height: 60px;
+    height: 100%;
     width: auto;
     position: relative;
 }
@@ -200,6 +236,7 @@ h3 {
 .description {
     font-size: 16px;
     line-height: 1.6;
+    margin-bottom: 0px;
 }
 
 .caption .bottom {
@@ -308,9 +345,20 @@ h3 {
     position: relative;
 }
 
+.resume h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 35px;
+}
+
+.resume_content h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
 .summary {
     margin-top: 10px;
-    padding: 20px;
     width: 28%;
     float: left;
     margin-right: 2%;
@@ -318,7 +366,6 @@ h3 {
 
 .resume_content {
     margin-top: 10px;
-    padding: 20px;
     width: 70%;
     float: right;
 }
