@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ludum Dare 23 results
 date: 2012-05-14 00:00:00
 ---

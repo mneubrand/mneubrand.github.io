@@ -4,7 +4,18 @@
         "Capable of full-stack work, I enjoy learning the intricacies of new technologies and adopting them quickly. I strive to be a pragmatic programmer and produce maintainable code and extensible architectures."
     ],
     "skills": [
-      [ "HTML5", "JavaScript", "Java", "C#", "C/C++", "Android SDK/NDK", "jQuery", "JUnit/NUnit/CppUnit", "git" ]
+        {
+            "title" : "Languages",
+            "tags" : [ "JavaScript", "Java", "C#", "C/C++", "PHP" ]
+        },
+        {
+            "title" : "Frameworks/Libraries",
+            "tags" : [ "Jekyll", "jQuery", "Android SDK/NDK", "Unity 3D", "Drupal", "JUnit/NUnit/CppUnit" ]
+        },
+        {
+            "title" : "Tools",
+            "tags" : [ "Eclipse" , "IntelliJ", "git", "svn", "Jira", "Jenkins" ]
+        }
     ],
     "links": [
         {
@@ -32,9 +43,15 @@
         {
             "name": "Salesforce.com, Inc.",
             "location": "San Francisco, CA, USA",
-            "start_date": "July 2014",
+            "start_date": "June 2015",
             "end_date": "now",
-            "title": "Senior Software Engineer",
+            "title": "Lead Member of Technical Staff",
+        },
+        {
+            "location": "San Francisco, CA, USA",
+            "start_date": "July 2014",
+            "end_date": "June 2015",
+            "title": "Senior Member of Technical Staff",
             "achievements": [
                 "Working on the Salesforce1 mobile platform"
             ]
@@ -60,17 +77,6 @@
             "achievements": [
                 "Developed NFC support for Firefox OS (formerly Boot2Gecko) in cooperation with Mozilla",
                 "Developed Android based sensor application for earthquake early warning system in cooperation with UC Berkeley"
-            ]
-        },
-        {
-            "name": "San Francisco State University",
-            "location": "San Francisco, CA, USA",
-            "start_date": "September 2010",
-            "end_date": "August 2011",
-            "title": "Software Developer",
-            "achievements": [
-                "Developed custom Drupal modules and integrated legacy backend services into the university portal",
-                "Developed/customized various Java plugins for Oracle Virtual Directory and Shibboleth"
             ]
         },
         {

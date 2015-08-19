@@ -3,3 +3,14 @@ highlighter: pygments
 permalink: /blog/:title
 paginate_path: /blog/page:num
 paginate: 5
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+collections:
+  hikes:
+    output: true
+    permalink: /hiking/:path/

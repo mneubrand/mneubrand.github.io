@@ -1,5 +1,4 @@
 ---
-layout: post
 title: New job, new beginning
 date: 2014-08-02 00:00:00
 ---

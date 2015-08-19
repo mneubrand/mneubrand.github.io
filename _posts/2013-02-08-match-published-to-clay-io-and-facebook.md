@@ -1,5 +1,4 @@
 ---
-layout: post
 title: mat(c)h published to clay.io and Facebook
 date: 2013-02-08 00:00:00
 ---

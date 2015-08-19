@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Survival - LOWREZJAM entry
 date: 2014-06-03 00:00:00
 ---

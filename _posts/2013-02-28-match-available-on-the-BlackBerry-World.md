@@ -1,5 +1,4 @@
 ---
-layout: post
 title: mat(c)h available on the BlackBerry World
 date: 2013-02-28 00:00:00
 ---

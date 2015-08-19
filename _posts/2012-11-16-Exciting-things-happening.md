@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Exciting things happening
 date: 2012-11-16 00:00:00
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: mat(c)h – the deed is done
 date: 2013-01-28 00:00:00
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Exposure from Ludum Dare and GPC
 date: 2012-05-14 01:00:00
 ---

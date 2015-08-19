@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ludum Dare 29 Results
 date: 2014-05-23 00:00:00
 ---

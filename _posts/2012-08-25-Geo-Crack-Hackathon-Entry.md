@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Geo Crack - Hackathon entry
 date: 2012-08-25 00:00:00
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Blog Relaunch
 date: 2014-05-21 00:00:00
 ---

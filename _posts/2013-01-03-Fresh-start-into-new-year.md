@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Fresh start into the new year
 date: 2013-01-03 00:00:00
 ---

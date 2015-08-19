@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Geo Crack wins hackathon/js13kGames entry preview
 date: 2012-08-29 00:00:00
 ---

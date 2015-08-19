@@ -1,5 +1,4 @@
 ---
-layout: post
 title: mat(c)h on github
 date: 2013-02-21 00:00:00
 ---

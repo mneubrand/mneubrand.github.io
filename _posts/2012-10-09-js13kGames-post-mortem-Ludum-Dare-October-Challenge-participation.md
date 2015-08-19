@@ -1,5 +1,4 @@
 ---
-layout: post
 title: js13kGames post mortem/Ludum Dare October Challenge participation
 date: 2012-10-09 00:00:00
 ---

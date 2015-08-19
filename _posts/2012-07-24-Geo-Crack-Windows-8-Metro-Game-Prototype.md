@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Geo Crack - Windows 8 Metro Game Prototype
 date: 2012-07-24 00:00:00
 ---
