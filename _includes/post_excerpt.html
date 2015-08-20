@@ -4,6 +4,14 @@
         <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
     </header>
     <section class="panel-body">
-        {{ post.content }}
+        {% if excerpts %}
+          {% assign s = post.content | split:"</p>" %}
+          {{ s[0] }}</p>
+          {{ s[1] }}</p>
+          {{ s[2] }}</p>
+          <a href="{{ post.url }}">Read More...</a>
+        {% else %}
+          {{ post.content }}
+        {% endif %}
     </section>
 </article>
