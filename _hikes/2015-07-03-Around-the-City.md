@@ -12,6 +12,8 @@ The first 10 miles went by quickly and we were going at a good pace. It also hel
 We were optimistic when we rounded the second corner of the city in the Bay View and headed around Candlestick Park. Only one big staircase of the old stadium was still remaining.
 The rest was already torn down.
 
+<!--more-->
+
 ![2nd corner in the Bay View]({{ site.url }}/img/hikes/7x7/2.jpg)
 *2nd corner in the Bay View*
 

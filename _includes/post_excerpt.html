@@ -5,10 +5,8 @@
     </header>
     <section class="panel-body">
         {% if excerpts %}
-          {% assign s = post.content | split:"</p>" %}
-          {{ s[0] }}</p>
-          {{ s[1] }}</p>
-          {{ s[2] }}</p>
+          {% assign s = post.content | split:"<!--more-->" %}
+          {{ s[0] }}
           <a href="{{ post.url }}">Read More...</a>
         {% else %}
           {{ post.content }}

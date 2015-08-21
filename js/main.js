@@ -17,7 +17,6 @@
     if (document.body.clientWidth >= 768) {
         var elements = document.querySelectorAll('img');
         Array.prototype.forEach.call(elements, function (el, i) {
-            console.log('adding click');
             el.addEventListener('click', function(e) {
                 $('.modal-title').text(el.getAttribute('alt'));
                 $('.modal-body').html('<img src="' + el.getAttribute('src') + '" alt="' + el.getAttribute('alt') + '"/>');
