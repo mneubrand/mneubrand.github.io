@@ -487,7 +487,7 @@ img {
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
     .summary {
         width: auto;
         float: none;
