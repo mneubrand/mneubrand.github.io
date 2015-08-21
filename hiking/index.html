@@ -4,5 +4,5 @@ title: Blog
 ---
 {% assign pagination=false %}
 {% assign excerpts=true %}
-{% assign data=site.hikes %}
+{% assign data=site.hikes | reverse %}
 {% include blog.html %}

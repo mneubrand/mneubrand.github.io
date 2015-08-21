@@ -1,6 +1,6 @@
 ---
 title: Ohlone Wilderness Thru-Hike
-date: 2015-07-03 00:00:00
+date: 2015-08-07 00:00:00
 layout: post
 ---
 We've never really considered doing a long distance hike or thru-hike before but got turned on to the idea after watching the documentary [Mile.. Mile and a Half](https://www.amazon.com/Mile-Half-Jason-Fitzpatrick/dp/B00FJVD4AS/ref=pd_ys_iyr4)
@@ -107,9 +107,9 @@ Megan wanted to watch the sunset outside our tent and see the stars but I was so
 ![Waiting for sunset]({{ site.url }}/img/hikes/ohlone/10.jpg)
 *Waiting for sunset*
 
-Day total: 9.7 miles and 3493 ft elevation gain
+Day total: 9.7 miles and 3493 ft climb
 
-<iframe id="mapmyfitness_route" src="//snippets.mapmycdn.com/routes/view/embedded/814059793?width=600&height=400&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=0&unit_type=imperial&map_mode=ROADMAP&last_updated=2015-08-20T11:39:12-07:00" height="460px" width="100%" frameborder="0"></iframe>
+<iframe id="mapmyfitness_route" src="//snippets.mapmycdn.com/routes/view/embedded/814059793?width=600&height=400&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=0&unit_type=imperial&map_mode=ROADMAP&last_updated=2015-08-20T11:39:12-07:00" height="460px" width="90%" frameborder="0"></iframe>
 
 # Day 2
 
@@ -145,6 +145,6 @@ Our legs were pretty much shot at that point so the descend took longer than it 
 
 We took an Uber back to the Fremont BART station and BART back to the city. My apologies to the people sitting near us. I'm sure we didn't smell pleasant at that point.
 
-Day total: 17.65 miles and 2447 ft elevation gain
+Day total: 17.65 miles and 2447 ft climb
 
-<iframe id="mapmyfitness_route2" src="//snippets.mapmycdn.com/routes/view/embedded/814075145?width=600&height=400&&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=0&unit_type=imperial&map_mode=ROADMAP&last_updated=2015-08-20T17:14:30-07:00" height="460px" width="100%" frameborder="0"></iframe>
+<iframe id="mapmyfitness_route2" src="//snippets.mapmycdn.com/routes/view/embedded/814075145?width=600&height=400&&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=0&unit_type=imperial&map_mode=ROADMAP&last_updated=2015-08-20T17:14:30-07:00" height="460px" width="90%" frameborder="0"></iframe>
