@@ -194,6 +194,10 @@ img {
     display: block;
 }
 
+.location {
+    font-size: 12px;
+}
+
 .pagination {
     position: relative;
     display: block;
