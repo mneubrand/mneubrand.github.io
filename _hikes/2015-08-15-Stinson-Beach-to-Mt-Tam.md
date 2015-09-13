@@ -2,6 +2,7 @@
 title: Stinson Beach to Mt. Tam
 date: 2015-08-15 00:00:00
 layout: post
+tags: Bay Area
 ---
 Motivated by our successful first thru-hike we were looking for some day hikes nearby to get in better shape for the next big one and decided to hike from Stinson Beach
 to the top of Mount Tamalpais and back in a loop. 15 miles total.
@@ -25,9 +26,9 @@ The beginning of the trail is beautiful with nice views down towards Stinson Bea
 By the time we reached the Bolinas Ridge it was already awfully hot and the scenery changed quite a bit. No more trees but dry, grassy hills instead until we got closer to the Pantoll Ranger
 Station. From there we took the Alpine Trail for half a mile to Bootjack Creek where we got back on the Matt Davis Trail.
 
-The vegetation changed again into a very dry rocky area that reflected the heat all the way to West Point Inn. From the Inn we took the Old Railroad Grade road east and Fern Creek Trail
-up to the Mt. Tam visitor center. In hindsight we should've taken Old Railroad Grade north instead as Fern Creek was really steep while Old Railroad Grade would get you to the top as well
-in a much nicer pace. We used that route on the way back instead. From the visitor center it's only 0.3 miles to the fire lookout station on top of Mt. Tam's East Peak.
+The vegetation changed again into a very dry rocky area that reflected the heat until we reached West Point Inn. From the Inn we took the Old Railroad Grade road east and Fern Creek Trail
+up to the Mt. Tam visitor center. In hindsight we should've taken Old Railroad Grade north instead because the Fern Creek Trail was really steep while Old Railroad Grade would get you to
+the top as well with a much nicer pace. We used that route on the way back instead. From the visitor center it's only 0.3 miles to the fire lookout station on top of Mt. Tam's East Peak.
 
 ![Mt. Tam East Peak]({{ site.url }}/img/hikes/mt_tam/5.jpg)
 *Mt. Tam East Peak*
@@ -38,11 +39,10 @@ Unfortunately the view from the top was really hazy because of all the [wildfire
 *Hazy view*
 
 The trickiest part of this entire hike was trying to eat lunch near the top of Mt. Tam. Whenever we tried to sit down somewhere we started to get swarmed by wasps. So we had to interrupt lunch
-twice and ended up finishing it while we were walking.
+twice and ended up finishing it while walking.
 
-We looped back to the West Point Inn and then took the Rock Spring Trail to the Mountain Theatre which had a few more uphill sections than we cared for at this point. Getting from the Mountain
-Theatre back to the Matt Davis Trail through the Bolinas Ridge was a challenge as well. There were a lot of trails crisscrossing making it hard to figure out which one would get us back but we
-eventually figured it out.
+We looped back to the West Point Inn and then took the Rock Spring Trail to the Mountain Theatre. Getting from the Mountain Theatre back to the Matt Davis Trail through the Bolinas Ridge was a
+ challenge as well. There were a lot of trails crisscrossing making it hard to figure out which one would get us back but we eventually figured it out.
 
 The stairs that were a nice help on the way up proved to be a pain on our knees on the way down but we eventually made it back to Stinson Beach.
 

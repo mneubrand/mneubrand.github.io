@@ -2,16 +2,15 @@
 title: Ohlone Wilderness Thru-Hike
 date: 2015-08-07 00:00:00
 layout: post
+tags: Bay Area
 ---
 We've never really considered doing a long distance hike or thru-hike before but got turned on to the idea after watching the documentary [Mile.. Mile and a Half](https://www.amazon.com/Mile-Half-Jason-Fitzpatrick/dp/B00FJVD4AS/ref=pd_ys_iyr4)
-about a group of people hiking the John Muir Trail. It seemed like an incredible experience and something we wanted to try as well. Starting with a 3 week long thru-hike was probably a bad idea
+about a group of people hiking the John Muir Trail. It seemed like an incredible experience and something we wanted to try as well. Starting with a 3 week long thru-hike is probably a bad idea
 so I started looking for some short thru-hikes in the bay area and found the [Ohlone Wilderness Trail](http://www.ebparks.org/parks/ohlone). Coincidentally we already had a camping weekend in Del
-Valle, one of the two starting points of the trail, lined up.
+Valle, one of the two starting points of the trail, lined up. All we had to do was move the 2nd day from Del Valle to Maggie's Half Acre, a backpacking campground in the Ohlone Wilderness.
+I had to call the EB Parks office to change our reservation and they were really helpful in rearranging our trip.
 
 <!--more-->
-
-All we had to do was move the 2nd day from Del Valle to Maggie's Half Acre, a backpacking campground in the Ohlone Wilderness. I had to call the EB Parks office to change our reservation and
-they were really helpful in rearranging our trip.
 
 # Preparation
 
@@ -35,11 +34,11 @@ Things we already had:
 * Clothing: We only packed very few cloth and no jackets as the weather would be really hot.
 * Miscellaneous items: First Aid Kit, sunscreen, insect repellent, books, battery phone charger
 
-Unfortunately I didn't weigh the backpacks before we left but they sure felt significantly heavier than anything I've ever carried on a day hike.
+Unfortunately I didn't weigh the backpacks before we left but they sure felt significantly heavier than anything I've ever carried on a hike.
 
 # Transportation
 
-We don't own a car and the hike is not a loop so even if we rented one we'd have to somehow get back to the start to pick up the car after finishing the hike so we went with public transportation
+We don't own a car and the hike is not a loop so even if we rented one we'd have to somehow get back to the start to pick up the car after finishing the hike. We went with public transportation
 instead. The planned route: [BART to Fremont, 99 Bus to the ACE station, ACE to Livermore](https://www.google.com/maps/dir/Embarcadero+BART,+298+Market+St,+San+Francisco,+CA+94111/Livermore,+CA/@37.6868977,-122.2297509,11z/am=t/data=!4m14!4m13!1m5!1m1!1s0x80858063e4026c91:0xb3aede0b9c48b1e3!2m2!1d-122.3957955!2d37.7935881!1m5!1m1!1s0x808fe586385a2071:0x98d32231cb6bd871!2m2!1d-121.7680088!2d37.6818745!5i2)
 , Uber to Del Valle. We left work a little early on Friday to beat the rush hour commute and things went really smoothly. It took us 2 hours to get to Livermore but we never had to wait for
 a connection for more than 10 minutes.
@@ -78,7 +77,7 @@ Over the next mile we slowly and painfully climbed a little over 1000 feet to Bo
 ![Climb to Boyd Camp]({{ site.url }}/img/hikes/ohlone/6.jpg)
 *Climb to Boyd Camp*
 
-From Boyd's camp the next mile went downhill a little bit until we reached the beginning of a section that's called "Big Burn" on the map. They were not kidding. Big Burn is by far the toughest
+From Boyd's camp the next mile went downhill a little bit until we reached the beginning of a section that's called "Big Burn" on the map. The map is not kidding. Big Burn is by far the toughest
 part of the entire hike with over a 1000 feet elevation gain and some really steep sections. We went through a lot of water and I was really glad when we reached Schlieper Rock at the end.
 
 From that point on things flattened out and our pace and mood picked up again. Roughly 5 more miles to go until Rose Peak.
@@ -96,7 +95,7 @@ roads to Maggie's half acre, one before and one after Rose Peak). When we finall
 From the peak it's only half a mile or so to Maggie's Half Acre campground and we arrived there shortly after 1pm. There was a tap with untreated water and we refilled our water bottles through our filter. I've never been so glad to
 have water before. I didn't even put up our tent but just unrolled one of our sleeping pads and took a long nap.
 
-Later in the afternoon we put up our tent and relaxed and read. Dinner was a bit of a letdown because I forgot to pack condiments and the buns we brought were mouldy so we had almonds and turkey
+Later in the afternoon we put up our tent and relaxed. Dinner was a bit of a letdown because I forgot to pack condiments and the buns we brought were mouldy. So all we had was prunes, almonds and turkey
 jerky.
 
 ![Maggie's Half Acre]({{ site.url }}/img/hikes/ohlone/9.jpg)
@@ -125,7 +124,7 @@ there as well so we were hopeful that we could buy some food to make up for the 
 ![Chipmunk checking us out]({{ site.url }}/img/hikes/ohlone/12.jpg)
 *Chipmunk checking us out*
 
-We reached Sunol shortly after 11am and refilled our water bottles. Unfortunately the Sunol visitor center only sells snacks and ice cream was sold out. We got two clif bars and ate some more
+We reached Sunol shortly after 11am and refilled our water bottles. Unfortunately the Sunol visitor center only sells snacks and was sold out of ice cream. We got two clif bars and ate some more
 dried prunes and almonds before starting the hike up Mission Peak.
 
 The first miles after Sunol go through land owned by the S.F. Water District on a gravel road. We were ascending at a nice, even pace (very different than Big Burn the previous day) and
@@ -138,7 +137,7 @@ unnecessary elevation gain before we finally reached the trail again and began o
 ![Mission Peak towards Fremont]({{ site.url }}/img/hikes/ohlone/13.jpg)
 *Mission Peak towards Fremont*
 
-Our legs were pretty much shot at that point so the descend took longer than it should have and was painful at times. All worth it in the end when we finished our first thru-hike!
+Our legs were pretty much shot at that point so the descend took longer than it should have and was painful at times. We finally made it around 3pm. All worth it in the end when we finished our first thru-hike!
 
 ![Finish]({{ site.url }}/img/hikes/ohlone/14.jpg)
 *Finish*
@@ -148,3 +147,10 @@ We took an Uber back to the Fremont BART station and BART back to the city. My a
 Day total: 17.65 miles and 2447 ft climb
 
 <iframe id="mapmyfitness_route2" src="//snippets.mapmycdn.com/routes/view/embedded/814075145?width=600&height=400&&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=0&unit_type=imperial&map_mode=ROADMAP&last_updated=2015-08-20T17:14:30-07:00" height="460px" width="90%" frameborder="0"></iframe>
+
+Links to other people that have done the hike and we used to help with planning:
+
+* [Kevin Gong](http://www.kevingong.com/Hiking/OhloneWildernessTrail1.html)
+* [NorCal Hiker](http://www.norcalhiker.com/ohlone-wilderness-trail/)
+* [Brice Pollock](http://www.bricepollock.com/thru-hike-ohlone-wilderness-trail/)
+* [Alice Hikes](http://alicehikes.com/2014/04/ohlone-wilderness-trail-28-mile-point-to-point-hike/)
