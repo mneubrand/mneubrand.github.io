@@ -7,8 +7,8 @@ tags: Bay Area
 Motivated by our successful first thru-hike we were looking for some day hikes nearby to get in better shape for the next big one and decided to hike from Stinson Beach
 to the top of Mount Tamalpais and back in a loop. 15 miles total.
 
-We took public transport to Stinson Beach which took around 2 hours: Golden Gate Transit Bus #70 to Marin City (Donahue & Terners) and Marin Transit Coach Bus #61 from there to Stinson Beach.
-Because of that we got a later start than we wanted to and only reached the Matt Davis Trailhead around 9.30.
+We took public transportation to Stinson Beach which took around 2 hours: Golden Gate Transit Bus #70 to Marin City (Donahue & Terners) and Marin Transit Coach Bus #61 from there to Stinson Beach.
+Because of that we got a later start than we wanted to and only reached the Matt Davis Trailhead around 9:30am.
 
 <!--more-->
 
@@ -42,12 +42,12 @@ The trickiest part of this entire hike was trying to eat lunch near the top of M
 twice and ended up finishing it while walking.
 
 We looped back to the West Point Inn and then took the Rock Spring Trail to the Mountain Theatre. Getting from the Mountain Theatre back to the Matt Davis Trail through the Bolinas Ridge was a
- challenge as well. There were a lot of trails crisscrossing making it hard to figure out which one would get us back but we eventually figured it out.
+challenge as well. There were a lot of trails crisscrossing making it hard to figure out which one would get us back but we eventually figured it out.
 
-The stairs that were a nice help on the way up proved to be a pain on our knees on the way down but we eventually made it back to Stinson Beach.
+The stairs that were a nice help on the way up proved to be a pain on our knees on the way down, but we eventually made it back to Stinson Beach.
 
 Transportation on the way back took an hour longer as well because traffic around Stinson Beach was so bad that the bus was delayed for 45 minutes. At least we got on early enough to get seats
-because standing in the bus for an hour after the hike would've not been fun.
+because standing in the bus for an hour after the hike would have not been fun.
 
 Day total: 15.86 miles and 3387 ft climb
 

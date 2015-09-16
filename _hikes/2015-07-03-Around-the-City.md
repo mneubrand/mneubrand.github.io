@@ -4,14 +4,14 @@ date: 2015-07-03 00:00:00
 layout: post
 tags: Bay Area
 ---
-Inspired by an article in sfist ["How To Take A 7x7x7x7-Mile Walking Tour Of San Francisco"](http://sfist.com/2015/06/08/how_to_take_a_7x7x7x7-mile_walking.php) we decided to give
-this hike a shot. We haven't done any longer hikes in quite a while but we figured it was a mostly flat route so it should be fine.
+Inspired by an article in sfist ["How To Take A 7x7x7x7-Mile Walking Tour Of San Francisco"](http://sfist.com/2015/06/08/how_to_take_a_7x7x7x7-mile_walking.php) my wife and I decided to give
+this hike a shot. We hadn't done any longer hikes in quite a while, but we figured it was mostly a flat route, so it shouldn't be too difficult.
 
-We started early at 6:40 AM from Ocean Beach and went in a counter-clockwise direction.
+We started early at 6:40am from Ocean Beach and went in a counter-clockwise direction.
 
-The first 10 miles went by quickly and we were going at a good pace. It also helped that the Western part of the city was covered in fog, which kept the temperature down.
-We were optimistic when we rounded the second corner of the city in the Bay View and headed around Candlestick Park. Only one big staircase of the old stadium was still remaining.
-The rest was already torn down.
+The first 10 miles went by quickly and we were walking at a good pace. It also helped that the western part of the city was covered in fog, which kept the temperature down.
+We were optimistic when we rounded the second corner of the city in the Bayview District and headed around Candlestick Park. Only one big staircase of the old stadium was still remaining--the
+rest had already been torn down.
 
 <!--more-->
 
@@ -21,22 +21,22 @@ The rest was already torn down.
 ![Candlestick Stadium]({{ site.url }}/img/hikes/7x7/3.jpg)
 *Candlestick Stadium*
 
-Things began to drag shortly after that when we rounded Hunter's point. We slowed down quite a bit and walking up 3rd Ave to AT&T park felt like it would never end.
-Lunch couldn't come at a better time and we stopped a little after AT&T park on the Embarcadero. We didn't waste too much time because we were worried we would not get
-up again otherwise. Next planned break was Crissy Field.
+Things began to drag shortly after that when we rounded Hunters Point neighborhood. We slowed down quite a bit--walking up 3rd Avenue towards AT&T Park felt like it would never end.
+Lunch couldn't have come at a better time, so we stopped a little after AT&T Park on the Embarcadero. We didn't waste too much time because we were worried we would not get
+up again. The next planned break was Crissy Field.
 
-Fisherman's Wharf was my least favorite portion of the entire hike. Trying to navigate around tourist when you've already 20 miles in your legs was an exercise in frustration.
-At least the anger made us increase our speed for a while.
+Fisherman's Wharf was my least favorite portion of the entire hike. Trying to navigate around tourists when you're feeling the 20 miles in your legs was an exercise in patience.
+At least the frustration made us increase our speed for a while.
 
-This was followed by the Marina Green and Crissy Field. Just a few miles but it felt like ten especially because we were walking (more hobbling at that point to be honest) against the wind.
-Finally we made it to the Warming Hut Cafe on the other side of Crissy Field and refilled our energy with some Gatorade and some energy bars. We almost wanted to give up at this point
+This was followed by the Marina Green and Crissy Field. Although both only cover a few miles, it felt like many more especially because we were walking (more hobbling at that point to be honest) against the wind.
+Finally we made it to the Warming Hut Cafe at the end of Crissy Field and refilled our energy with some Gatorade and energy bars. We felt like givng up at this point,
 but our goal was so close that we carried on and dragged ourselves up to the Golden Gate Bridge.
 
 ![Golden Gate Bridge]({{ site.url }}/img/hikes/7x7/5.jpg)
 *Golden Gate Bridge*
 
-At this point my phone battery was almost dead so unfortunately I had to stop recording our route. Through the Presidio and Lands End we had to deal with a bunch of elevation change.
-Interestingly the uphill parts felt like a relief at this point but downhill was brutal on the knees. One last descend down from the Cliff House and we were on our home stretch down
+By now my phone battery was almost dead, so unfortunately I had to stop recording our route. Through the Presidio and Lands End we had to deal with a lot of elevation change.
+Interestingly, the uphill parts felt like a relief, but downhill was brutal on the knees. One last descent after the Cliff House and we were on the home stretch to
 Ocean Beach.
 
 ![End on Ocean Beach]({{ site.url }}/img/hikes/7x7/4.jpg)
