@@ -92,7 +92,7 @@ img {
     display: block;
     text-align: center;
     margin: 0 auto;
-    width: 400px;
+    width: 100%;
 }
 
 .blog .col-left {
@@ -104,7 +104,7 @@ img {
 .blog .col-right {
     max-width: 290px;
     float: right;
-    border-left: 1px solid rgba(0,0,0,0.1);
+    border-left: 1px solid rgba(0,0,0,0.2);
 }
 
 .blog .col-right div {
@@ -152,7 +152,7 @@ img {
     max-width: 800px;
     margin: 10px auto;
     background-color: #ffffff;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .post > .panel-heading {
@@ -249,7 +249,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .projects .table {
@@ -274,7 +274,7 @@ img {
 }
 
 .project.panel {
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.2);
 }
 
 .project .btn {
@@ -429,7 +429,7 @@ img {
     width: 320px;
     float: left;
     margin-right: 15px;
-    border-right: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.2);
     padding-right: 15px;
 }
 
