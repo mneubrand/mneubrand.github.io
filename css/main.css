@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+p, #main li {
+    font-family: "Helvetica Neue",Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
 .clear {
     clear: both;
 }
@@ -314,8 +318,7 @@ img {
 }
 
 .description {
-    font-size: 16px;
-    line-height: 1.6;
+    margin-top: 6px;
     margin-bottom: 0px;
 }
 
@@ -481,12 +484,16 @@ img {
     font-weight: bold;
 }
 
+.links div, .skills div {
+    margin-bottom: 10px;
+}
+
 .links a:hover {
     color: #333;
 }
 
 .skills .tag {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .skills p {

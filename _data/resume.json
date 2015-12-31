@@ -10,7 +10,7 @@
         },
         {
             "title" : "Frameworks/Libraries",
-            "tags" : [ "Jekyll", "jQuery", "Android SDK/NDK", "Unity 3D", "Drupal", "JUnit/NUnit/CppUnit" ]
+            "tags" : [ "Jekyll", "jQuery", "Android SDK/NDK", "Cordova", "Drupal", "JUnit", "Selenium" ]
         },
         {
             "title" : "Tools",

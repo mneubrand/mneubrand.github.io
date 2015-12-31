@@ -20,7 +20,7 @@ title: Resume
             </div>
             <div class="links">
                 {% for link in resume.links %}
-                    <p><a href="{{ link.url }}"><i class="fa {{ link.icon }}"></i>{{ link.title }}</a></p>
+                    <div><a href="{{ link.url }}"><i class="fa {{ link.icon }}"></i>{{ link.title }}</a></div>
                 {% endfor %}
             </div>
         </div>
@@ -41,12 +41,12 @@ title: Resume
 
             <div class="skills panel-body">
                 {% for skillCategory in resume.skills %}
-                    <p>
+                    <div>
                         <span class="skills-title">{{ skillCategory.title }}:</span>
                         {% for skill in skillCategory.tags %}
                             <span class="tag badge">{{ skill }}</span>
                         {% endfor %}
-                    </p>
+                    </div>
 
                 {% endfor %}
             </div>
@@ -63,8 +63,8 @@ title: Resume
             {% for experience in resume.experiences %}
                 <div class="experience">
                     <h3 class="text-primary">{{ experience.name }}</h3>
-                    <p class="title text-primary">{{ experience.title }}</p>
-                    <p class="duration text-primary">{{ experience.start_date }} - {{ experience.end_date }}</p>
+                    <div class="title text-primary">{{ experience.title }}</div>
+                    <div class="duration text-primary">{{ experience.start_date }} - {{ experience.end_date }}</div>
                     <div class="clear"></div>
                     {% if experience.achievements.size > 0 %}
                     <ul>
@@ -89,8 +89,8 @@ title: Resume
             {% for education in resume.educations %}
                 <div class="education">
                     <h3 class="text-primary">{{ education.title }}</h3>
-                    <p class="institution text-primary">{{ education.institution }}</p>
-                    <p class="duration text-primary">{{ education.start_date }} - {{ education.end_date }}</p>
+                    <div class="institution text-primary">{{ education.institution }}</div>
+                    <div class="duration text-primary">{{ education.start_date }} - {{ education.end_date }}</div>
                     <div class="clear"></div>
                     {% if education.achievements.size > 0 %}
                     <ul>
