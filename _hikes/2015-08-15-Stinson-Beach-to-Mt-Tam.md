@@ -51,4 +51,4 @@ because standing in the bus for an hour after the hike would have not been fun.
 
 Day total: 15.86 miles and 3387 ft climb
 
-<iframe id="mapmyfitness_route" src="//snippets.mapmycdn.com/routes/view/embedded/814251287?width=600&height=400&&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=1&unit_type=imperial&map_mode=ROADMAP&last_updated=2015-08-20T18:29:31-07:00" height="460px" width="90%" frameborder="0"></iframe>
+<iframe id="mapmyfitness_route" src="//snippets.mapmycdn.com/routes/view/embedded/814251287?width=600&height=400&&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=1&unit_type=imperial&map_mode=SATELLITE&last_updated=2015-08-20T18:29:31-07:00" height="460px" width="90%" frameborder="0"></iframe>

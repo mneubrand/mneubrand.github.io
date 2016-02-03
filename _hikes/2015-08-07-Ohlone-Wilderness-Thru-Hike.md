@@ -108,7 +108,7 @@ Megan wanted to watch the sunset outside our tent and see the stars, but I was s
 
 Day total: 9.7 miles and 3493 ft climb
 
-<iframe id="mapmyfitness_route" src="//snippets.mapmycdn.com/routes/view/embedded/814059793?width=600&height=400&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=0&unit_type=imperial&map_mode=ROADMAP&last_updated=2015-08-20T11:39:12-07:00" height="460px" width="90%" frameborder="0"></iframe>
+<iframe id="mapmyfitness_route" src="//snippets.mapmycdn.com/routes/view/embedded/814059793?width=600&height=400&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=0&unit_type=imperial&map_mode=SATELLITE&last_updated=2015-08-20T11:39:12-07:00" height="460px" width="90%" frameborder="0"></iframe>
 
 # Day 2
 
@@ -146,7 +146,7 @@ We took an Uber back to the Fremont BART station and BART back to the city. My a
 
 Day total: 17.65 miles and 2447 ft climb
 
-<iframe id="mapmyfitness_route2" src="//snippets.mapmycdn.com/routes/view/embedded/814075145?width=600&height=400&&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=0&unit_type=imperial&map_mode=ROADMAP&last_updated=2015-08-20T17:14:30-07:00" height="460px" width="90%" frameborder="0"></iframe>
+<iframe id="mapmyfitness_route2" src="//snippets.mapmycdn.com/routes/view/embedded/814075145?width=600&height=400&&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=0&unit_type=imperial&map_mode=SATELLITE&last_updated=2015-08-20T17:14:30-07:00" height="460px" width="90%" frameborder="0"></iframe>
 
 Links to other people that have done the hike and we used to help with planning:
 
