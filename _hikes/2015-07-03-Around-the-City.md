@@ -2,7 +2,7 @@
 title: 7x7x7x7 around San Francisco
 date: 2015-07-03 00:00:00
 layout: post
-tags: Bay Area
+location: "Bay Area"
 ---
 Inspired by an article in sfist ["How To Take A 7x7x7x7-Mile Walking Tour Of San Francisco"](http://sfist.com/2015/06/08/how_to_take_a_7x7x7x7-mile_walking.php) my wife and I decided to give
 this hike a shot. We hadn't done any longer hikes in quite a while, but we figured it was mostly a flat route, so it shouldn't be too difficult.

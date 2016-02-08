@@ -2,7 +2,7 @@
 title: Stinson Beach to Mt. Tam
 date: 2015-08-15 00:00:00
 layout: post
-tags: Bay Area
+location: "Bay Area"
 ---
 Motivated by our successful first thru-hike we were looking for some day hikes nearby to get in better shape for the next big one and decided to hike from Stinson Beach
 to the top of Mount Tamalpais and back in a loop. 15 miles total.

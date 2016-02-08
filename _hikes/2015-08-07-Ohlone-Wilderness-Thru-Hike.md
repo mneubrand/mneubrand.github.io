@@ -2,7 +2,7 @@
 title: Ohlone Wilderness Thru-Hike
 date: 2015-08-07 00:00:00
 layout: post
-tags: Bay Area
+location: "Bay Area"
 ---
 My wife and I never really considered doing a long distance hike or thru-hike before, but got turned on to the idea after watching the documentary [Mile.. Mile and a Half](https://www.amazon.com/Mile-Half-Jason-Fitzpatrick/dp/B00FJVD4AS/ref=pd_ys_iyr4)
 about a group of people hiking the John Muir Trail. It seemed like an incredible experience and something we wanted to try as well. Starting with a 3-week long thru-hike is probably a bad idea,

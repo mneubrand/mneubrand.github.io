@@ -2,7 +2,7 @@
 title: Waihee Ridge Trail on Maui
 date: 2016-01-19 00:00:00
 layout: post
-tags: Maui
+location: "Maui"
 ---
 Though we spent most of our time on Maui at the beach and drinking Lava Flows we did manage to get one hike in. The Waihee Ridge Trail is a short 4 mile roundtrip hike
 on Maui's north shore with amazing views along the way.
