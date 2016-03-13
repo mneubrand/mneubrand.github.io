@@ -235,11 +235,10 @@ img {
     display: block;
 }
 
-.pagination {
-    position: relative;
-    display: block;
-    margin: 10px auto;
-    width: 150px;
+@media (min-width: 1200px) {
+    .pagination {
+        margin-right: 290px;
+    }
 }
 
 /****************************
