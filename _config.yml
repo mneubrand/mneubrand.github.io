@@ -1,6 +1,7 @@
 highlighter: rouge
-permalink: /blog/:title
-paginate_path: /blog/page:num
+gems: [jekyll-paginate]
+permalink: /hiking/:title
+paginate_path: /hiking/page:num
 paginate: 5
 defaults:
   -
@@ -9,7 +10,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-collections:
-  hikes:
-    output: true
-    permalink: /hiking/:path/
