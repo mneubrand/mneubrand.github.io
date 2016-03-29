@@ -45,7 +45,7 @@
             "location": "San Francisco, CA, USA",
             "start_date": "June 2015",
             "end_date": "now",
-            "title": "Lead Member of Technical Staff",
+            "title": "Lead Member of Technical Staff"
         },
         {
             "location": "San Francisco, CA, USA",
@@ -53,7 +53,8 @@
             "end_date": "June 2015",
             "title": "Senior Member of Technical Staff",
             "achievements": [
-                "Working on the Salesforce1 mobile platform"
+                "Working on all aspects of Cordova based JS/native interaction in Salesforce1",
+                "Worked on offline capabilities and caching in Salesforce1 mobile clients"
             ]
         },
         {
