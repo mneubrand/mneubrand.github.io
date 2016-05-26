@@ -1,6 +1,8 @@
 /****************************
  *         General          *
  ****************************/
+@import url(https://fonts.googleapis.com/css?family=Martel:300);
+
 html {
     height: 100%;
     /* The html and body elements cannot have any padding or margin. */
@@ -12,7 +14,7 @@ body {
 }
 
 p, #main li {
-    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-family: "Martel",Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
 .clear {
@@ -162,6 +164,7 @@ img {
     margin: 10px auto;
     background-color: #ffffff;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+    line-height: 1.9;
 }
 
 .post > .panel-heading {
@@ -212,10 +215,6 @@ img {
 
 .post h1 {
     font-size: 26px;
-}
-
-.post {
-    line-height: 1.7;
 }
 
 .post p {
@@ -322,6 +321,7 @@ img {
 }
 
 .description {
+    font-size: 14px;
     margin-top: 6px;
     margin-bottom: 0px;
 }
