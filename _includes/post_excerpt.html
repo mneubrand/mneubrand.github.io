@@ -3,7 +3,7 @@
         <span class="post-meta">
             <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%d %B %Y' }}</time>
             {% if post.location %}
-                <br/><span class="location">{{ post.location }}</span>
+            &middot; <span class="location">{{ post.location }}</span>
             {% endif %}
         </span>
         <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>

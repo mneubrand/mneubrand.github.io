@@ -52,9 +52,31 @@ img {
     text-align: center;
 }
 
+@media (min-width: 1050px) {
+    .modal-lg {
+        width: 1039px;
+    }
+}
+
 .modal-dialog img {
     max-width: 100%;
-    max-height: 700px;
+    max-height: 100%;
+}
+
+.modal-dialog {
+    height: 95%;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+.modal-body {
+    height: 90%;
+}
+
+.modal-header {
+    height: 10%;
 }
 
 .modal-body, .modal-title {
@@ -215,6 +237,10 @@ img {
 
 .post h1 {
     font-size: 26px;
+}
+
+.post .panel-body h1 {
+    font-size: 20px;
 }
 
 .post p {
