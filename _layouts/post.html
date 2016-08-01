@@ -3,7 +3,12 @@ layout: default
 ---
 <article class="post panel panel-default">
     <header class="panel-heading">
-        <span class="post-meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%d %B %Y' }}</time></span>
+        <span class="post-meta">
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%d %B %Y' }}</time>
+            {% if page.location %}
+            &middot; <span class="location">{{ page.location }}</span>
+            {% endif %}
+        </span>
         <h3 class="post-title">{{ page.title }}</h3>
     </header>
     <section class="panel-body">
