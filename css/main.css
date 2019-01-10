@@ -36,7 +36,7 @@ h2 {
 h3 {
     margin-top: 2px;
     margin-bottom: 6px;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 img {
@@ -476,7 +476,7 @@ img {
     margin-bottom: 0px;
 }
 
-.resume .title, .resume .institution {
+.resume .name, .resume .institution, .experience .title {
     float: left;
 }
 
@@ -498,11 +498,16 @@ img {
 }
 
 .experience ul, .education ul {
-    margin-bottom: 12px;
+    margin: 12px 0;
 }
 
-.experience .title {
+.experience .name {
+    clear: both;
     margin-bottom: 0px;
+}
+
+.experience .name, .experience .duration {
+    font-size: 18px;
 }
 
 .links i {
@@ -523,7 +528,8 @@ img {
 }
 
 .skills .tag {
-    margin-right: 8px;
+    margin-right: 6px;
+    margin-bottom: 6px;
 }
 
 .skills p {

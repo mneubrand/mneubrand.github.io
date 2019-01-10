@@ -42,10 +42,12 @@ title: Resume
             <div class="skills panel-body">
                 {% for skillCategory in resume.skills %}
                     <div>
-                        <span class="skills-title">{{ skillCategory.title }}:</span>
+                        <div class="skills-title">{{ skillCategory.title }}:</div>
+                        <div class="skills-list">
                         {% for skill in skillCategory.tags %}
                             <span class="tag badge">{{ skill }}</span>
                         {% endfor %}
+                        </div>
                     </div>
 
                 {% endfor %}
@@ -62,8 +64,8 @@ title: Resume
             <div class="panel-body">
             {% for experience in resume.experiences %}
                 <div class="experience">
-                    <h3 class="text-primary">{{ experience.name }}</h3>
-                    <div class="title text-primary">{{ experience.title }}</div>
+                    <h3 class="title text-primary">{% if experience.title %}{{ experience.title }}{% else %}{{ experience.name}}{% endif %}</h3>
+                    {% if experience.title %}<div class="name text-primary">{{ experience.name }}</div>{% endif %}
                     <div class="duration text-primary">{{ experience.start_date }} - {{ experience.end_date }}</div>
                     <div class="clear"></div>
                     {% if experience.achievements.size > 0 %}

@@ -22,9 +22,6 @@
 [submodule "projects/survival"]
 	path = projects/survival
 	url = https://github.com/mneubrand/survival.git
-[submodule "projects/meet-in-the-middle"]
-	path = projects/meet-in-the-middle
-	url = https://github.com/mneubrand/meet-in-the-middle.git
 [submodule "projects/helpdesk-florida"]
 	path = projects/helpdesk-florida
 	url = https://github.com/mneubrand/helpdesk-florida.git

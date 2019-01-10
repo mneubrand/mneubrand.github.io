@@ -1,20 +1,20 @@
 {
     "summary": [
-        "I'm a dedicated Software Engineer with extensive experience in various programming languages (Java, C#, JavaScript, C/C++), stacks and environments. Recently my focus has been mobile development.",
-        "Capable of full-stack work, I enjoy learning the intricacies of new technologies and adopting them quickly. I strive to be a pragmatic programmer and produce maintainable code and extensible architectures."
+        "Software engineer with 10+ years of professional experience capable of full-stack work. I strive to be a pragmatic programmer, produce maintainable code and extensible architectures.",
+        "Experience in various programming languages (Java, JavaScript, C/C++, C#), stacks and environments. Recently my focus has been large-scale web application backend development and machine learning integration work.",
     ],
     "skills": [
         {
             "title" : "Languages",
-            "tags" : [ "JavaScript", "Java", "C#", "C/C++", "PHP" ]
+            "tags" : [ "Java", "JavaScript (ES6/HTML5/CSS3)", "C/C++", "C#" ]
         },
         {
-            "title" : "Frameworks/Libraries",
-            "tags" : [ "Jekyll", "jQuery", "Android SDK/NDK", "Cordova", "Drupal", "JUnit", "Selenium" ]
+            "title" : "Frameworks/Stacks",
+            "tags" : [ "Salesforce Platform", "Android SDK/NDK", "Bootstrap/jQuery","Cordova", "Jekyll" ]
         },
         {
             "title" : "Tools",
-            "tags" : [ "Eclipse" , "IntelliJ", "git", "svn", "Jira", "Jenkins" ]
+            "tags" : [ "Eclipse", "IntelliJ", "git", "svn", "Perforce", "Jira", "Jenkins", "JUnit/Mockito", "Selenium" ]
         }
     ],
     "links": [
@@ -32,29 +32,46 @@
             "url": "http://github.com/mneubrand",
             "icon": "fa-github",
             "title": "GitHub"
-        },
-        {
-            "url": "https://twitter.com/mneubrand",
-            "icon": "fa-twitter",
-            "title": "@mneubrand"
         }
     ],
     "experiences": [
         {
             "name": "Salesforce.com, Inc.",
+            "location": "Chicago, IL, USA",
+            "start_date": "October 2017",
+            "end_date": "now",
+            "title": "Lead Member of Technical Staff",
+            "achievements": [
+                "Working on customer data protection initiatives",
+                "Worked on integrating machine learning platforms into Java backend (Sales Cloud Einstein)"
+            ]
+        },
+        {
+            "name": "Travel Year",
+            "location": "USA, South America, SE Asia, Europe",
+            "start_date": "October 2016",
+            "end_date": "September 2017",
+            "achievements": [
+                "Traveled around the world for a year: <a href=\"https://www.road-beers.com/\">road-beers.com</a>"
+            ]
+        },
+        {
+            "name": "Salesforce.com, Inc.",
             "location": "San Francisco, CA, USA",
             "start_date": "June 2015",
-            "end_date": "now",
+            "end_date": "September 2016",
             "title": "Lead Member of Technical Staff"
         },
         {
+            "name": "Salesforce.com, Inc.",
             "location": "San Francisco, CA, USA",
             "start_date": "July 2014",
             "end_date": "June 2015",
             "title": "Senior Member of Technical Staff",
             "achievements": [
-                "Working on all aspects of Cordova based JS/native interaction in Salesforce1",
-                "Worked on offline capabilities and caching in Salesforce1 mobile clients"
+                "Worked on Lightning integration in the Salesforce Android and iOS apps",
+                "Worked on all aspects of Cordova based JS/native interaction in the Salesforce Android and iOS apps",
+                "Worked on offline capabilities and caching in Salesforce Android and iOS apps"
             ]
         },
         {
@@ -65,7 +82,7 @@
             "title": "Senior Software Engineer",
             "achievements": [
                 "Developed and successfully shipped casino franchise Android titles (Jackpot Slots, Jackpot Bingo) with Jackpot Slots reaching #6 Top Grossing in the United States",
-                "Acted as technical lead for Jackpot Slots client team",
+                "Acted as technical lead for Jackpot Slots client team and reduced crash rate, introduced better release monitoring and peer code review",
                 "Worked on unannounced Unity 3D title"
             ]
         },

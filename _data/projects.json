@@ -34,24 +34,6 @@
             ]
         },
         {
-            "title": "Meet in the Middle",
-            "image": "img/projects/mitm.png",
-            "description": "Simple app to find a meeting spot in the middle of several addresses.",
-            "actions": [
-                {
-                    "title": "Demo",
-                    "url": "projects/meet-in-the-middle/index.html"
-                },
-                {
-                    "title": "Source",
-                    "url": "https://github.com/mneubrand/meet-in-the-middle"
-                }
-            ],
-            "tags": [
-                "JavaScript", "Bootstrap", "Google Maps API"
-            ]
-        },
-        {
             "title": "XMLVM",
             "image": "img/projects/xmlvm.png",
             "description": "Cross-compilation toolchain for multiple targets (e.g. Android to iPhone, etc.). Contributor on the iPhone C backend, WP7 backend and various other parts of the project.",

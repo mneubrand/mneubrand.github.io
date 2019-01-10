@@ -1,12 +1,1 @@
 highlighter: rouge
-gems: [jekyll-paginate]
-permalink: /hiking/:title
-paginate_path: /hiking/page:num
-paginate: 5
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
