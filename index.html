@@ -95,18 +95,21 @@ title: Resume
 
             <div class="panel-body">
             {% for education in resume.educations %}
-                <div class="education">
-                    <h3 class="text-primary">{{ education.title }}</h3>
-                    <div class="institution text-primary">{{ education.institution }}</div>
-                    <div class="duration text-primary">{{ education.start_date }} - {{ education.end_date }}</div>
-                    <div class="clear"></div>
-                    {% if education.achievements.size > 0 %}
-                    <ul>
-                        {% for achievement in education.achievements %}
-                            <li class="achievement">{{ achievement }}</li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
+                <div class="experience">
+                    <h3 class="title text-primary">{{ education.title }}</h3>
+
+                    <div class="experience-body">
+                        <div class="name text-primary">{{ education.institution }}</div>
+                        <div class="duration text-primary">{{ education.start_date }} - {{ education.end_date }}</div>
+                        <div class="clear"></div>
+                        {% if education.achievements.size > 0 %}
+                        <ul>
+                            {% for achievement in education.achievements %}
+                                <li class="achievement"><div>{{ achievement }}</div></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
                 </div>
             {% endfor %}
             </div>

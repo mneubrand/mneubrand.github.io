@@ -25,6 +25,7 @@ h1 {
     margin-top: 2px;
     margin-bottom: 10px;
     font-size: 30px;
+    font-weight: bold;
 }
 
 h2 {
@@ -88,7 +89,8 @@ footer {
 }
 
 .navbar-brand {
-    margin-right: 50px;
+    margin-right: 40px;
+    font-weight: bold;
 }
 
 .navbar-brand.small {
@@ -483,6 +485,10 @@ footer {
     float: left;
 }
 
+.experience .title {
+    font-weight: bold;
+}
+
 .anchor {
     display: block;
     position: relative;
@@ -520,13 +526,13 @@ footer {
   bottom: 12px;
 }
 
-.experience ul, .education ul {
+.experience ul {
     list-style-type: "-";
     margin: 6px 0 12px 0;
     padding-left: 18px;
 }
 
-.experience ul div, .education ul div {
+.experience ul div {
     padding-left: 6px;
     margin-bottom: 6px;
 }
