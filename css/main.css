@@ -521,8 +521,14 @@ footer {
 }
 
 .experience ul, .education ul {
-    margin: 12px 0;
-    padding-left: 24px;
+    list-style-type: "-";
+    margin: 6px 0 12px 0;
+    padding-left: 18px;
+}
+
+.experience ul div, .education ul div {
+    padding-left: 6px;
+    margin-bottom: 6px;
 }
 
 .experience .name:before {
@@ -533,11 +539,12 @@ footer {
   background: #cccccc;
   border-radius: 50%;
   border: 2px solid #ffffff;
-  top: 10px;
-  left: -23px;
+  top: 12px;
+  left: -27px;
 }
 
 .experience .name {
+    margin-left: 4px;
     position: relative;
     font-weight: bold;
     clear: both;
@@ -550,6 +557,7 @@ footer {
 
 .experience .name, .experience .duration {
     font-size: 18px;
+    padding: 2px 0;
 }
 
 .links i {
