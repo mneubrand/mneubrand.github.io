@@ -1,16 +1,18 @@
 {
     "summary": [
-        "Software engineer with 10+ years of professional experience capable of full-stack work. I strive to be a pragmatic programmer, produce maintainable code and extensible architectures.",
-        "Experience in various programming languages (Java, JavaScript, C/C++, C#), stacks and environments. Recently my focus has been large-scale web application backend development and machine learning integration work.",
+        "Software engineer with 10+ years of professional experience capable of full-stack work.",
+        "My most recent focus has been on the Apex runtime and compiler, a server-side programming language for the Salesforce platform.",
+        "Experience in various programming languages (Java, JavaScript, C/C++, C#), stacks and environments.",
+        "I strive to be a pragmatic programmer, produce maintainable code and extensible architectures.",
     ],
     "skills": [
         {
             "title" : "Languages",
-            "tags" : [ "Java", "JavaScript (ES6/HTML5/CSS3)", "C/C++", "C#" ]
+            "tags" : [ "Java", "JavaScript", "Apex", "C#", "C/C++" ]
         },
         {
             "title" : "Frameworks/Stacks",
-            "tags" : [ "Salesforce Platform", "Android SDK/NDK", "Bootstrap/jQuery","Cordova", "Jekyll" ]
+            "tags" : [ "Salesforce Platform", "Web Developmend", "Android SDK/NDK", "Cordova" ]
         },
         {
             "title" : "Tools",
@@ -37,109 +39,158 @@
     "experiences": [
         {
             "name": "Salesforce.com, Inc.",
-            "location": "Chicago, IL, USA",
-            "start_date": "October 2017",
-            "end_date": "now",
-            "title": "Lead Member of Technical Staff",
-            "achievements": [
-                "Working on customer data protection initiatives",
-                "Worked on integrating machine learning platforms into Java backend (Sales Cloud Einstein)"
+            "positions" : [
+                {
+                    "location": "Zürich, Switzerland",
+                    "start_date": "July 2021",
+                    "end_date": "now",
+                    "title": "Principal Member of Technical Staff",
+                    "achievements": [
+                        "Working on the <a href=\"https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro_what_is_apex.htm\">Apex</a> runtime and compiler, a server-side programming language for the Salesforce platform",
+                        "Designed, implemented and shipped customer data protection initiatives in the <a href=\"https://appexchange.salesforce.com/\">AppExchange</a> ecosystem that protect Salesforce customers from negative impact of 3rd party packages installed in their organizations",
+                        "Built the first machine learning platform integration into the core Salesforce platform (this product later on became the <a href=\"https://help.salesforce.com/s/articleView?id=sf.einstein_sales.htm&type=5\">Sales Cloud Einstein</a> suite)"
+                    ]
+                },
+                {
+                    "location": "Chicago, IL, USA",
+                    "start_date": "February 2021",
+                    "end_date": "June 2021",
+                    "title": "Principal Member of Technical Staff"
+                },
+                {
+                    "location": "Chicago, IL, USA",
+                    "start_date": "October 2017",
+                    "end_date": "January 2021",
+                    "title": "Lead Member of Technical Staff"
+                }
             ]
         },
         {
             "name": "Travel Year",
-            "location": "USA, South America, SE Asia, Europe",
-            "start_date": "October 2016",
-            "end_date": "September 2017",
-            "achievements": [
-                "Traveled around the world for a year: <a href=\"https://www.road-beers.com/\">road-beers.com</a>"
+            "positions" : [
+                {
+                    "location": "USA, South America, SE Asia, Europe",
+                    "start_date": "October 2016",
+                    "end_date": "September 2017",
+                    "title": "Travel Year",
+                    "achievements": [
+                        "Traveled around the world for a year: <a href=\"https://www.road-beers.com/\">road-beers.com</a>"
+                    ]
+                }
             ]
         },
         {
             "name": "Salesforce.com, Inc.",
-            "location": "San Francisco, CA, USA",
-            "start_date": "June 2015",
-            "end_date": "September 2016",
-            "title": "Lead Member of Technical Staff"
-        },
-        {
-            "name": "Salesforce.com, Inc.",
-            "location": "San Francisco, CA, USA",
-            "start_date": "July 2014",
-            "end_date": "June 2015",
-            "title": "Senior Member of Technical Staff",
-            "achievements": [
-                "Worked on Lightning integration in the Salesforce Android and iOS apps",
-                "Worked on all aspects of Cordova based JS/native interaction in the Salesforce Android and iOS apps",
-                "Worked on offline capabilities and caching in Salesforce Android and iOS apps"
+            "positions" : [
+                {
+                    "location": "San Francisco, CA, USA",
+                    "start_date": "June 2015",
+                    "end_date": "September 2016",
+                    "title": "Lead Member of Technical Staff",
+                    "achievements": [
+                        "Worked on Lightning integration in the Salesforce Android and iOS apps",
+                        "Worked on all aspects of Cordova based JS/native interaction in the Salesforce Android and iOS apps",
+                        "Worked on offline capabilities and caching in Salesforce Android and iOS apps"
+                    ]
+                },
+                {
+                    "location": "San Francisco, CA, USA",
+                    "start_date": "July 2014",
+                    "end_date": "June 2015",
+                    "title": "Senior Member of Technical Staff"
+                }
             ]
         },
         {
             "name": "GREE International, Inc.",
-            "location": "San Francisco, CA, USA",
-            "start_date": "January 2013",
-            "end_date": "June 2014",
-            "title": "Senior Software Engineer",
-            "achievements": [
-                "Developed and successfully shipped casino franchise Android titles (Jackpot Slots, Jackpot Bingo) with Jackpot Slots reaching #6 Top Grossing in the United States",
-                "Acted as technical lead for Jackpot Slots client team and reduced crash rate, introduced better release monitoring and peer code review",
-                "Worked on unannounced Unity 3D title"
+            "positions" : [
+                {
+                    "location": "San Francisco, CA, USA",
+                    "start_date": "January 2013",
+                    "end_date": "June 2014",
+                    "title": "Senior Software Engineer",
+                    "achievements": [
+                        "Developed and successfully shipped casino franchise Android titles (Jackpot Slots, Jackpot Bingo) with Jackpot Slots reaching #6 Top Grossing in the United States",
+                        "Acted as technical lead for Jackpot Slots client team and reduced crash rate, introduced better release monitoring and peer code review",
+                        "Worked on unannounced Unity 3D title"
+                    ]
+                }
             ]
         },
         {
             "name": "Deutsche Telekom Inc.",
-            "location": "Mountain View, CA, USA",
-            "start_date": "September 2011",
-            "end_date": "November 2012",
-            "title": "Software Engineer",
-            "achievements": [
-                "Developed NFC support for Firefox OS (formerly Boot2Gecko) in cooperation with Mozilla",
-                "Developed Android based sensor application for earthquake early warning system in cooperation with UC Berkeley"
+            "positions" : [
+                {
+                    "location": "Mountain View, CA, USA",
+                    "start_date": "September 2011",
+                    "end_date": "November 2012",
+                    "title": "Software Engineer",
+                    "achievements": [
+                        "Developed NFC support for Firefox OS (formerly Boot2Gecko) in cooperation with Mozilla",
+                        "Developed Android based sensor application for earthquake early warning system in cooperation with UC Berkeley"
+                    ]
+                }
             ]
         },
         {
             "name": "San Francisco State University",
-            "location": "San Francisco, CA, USA",
-            "start_date": "September 2010",
-            "end_date": "August 2011",
-            "title": "Software Developer",
-            "achievements": [
-                "Developed custom Drupal modules and integrated legacy backend services into the university portal",
-                "Developed/customized various Java plugins for Oracle Virtual Directory and Shibboleth"
+            "positions" : [
+                {
+                    "location": "San Francisco, CA, USA",
+                    "start_date": "September 2010",
+                    "end_date": "August 2011",
+                    "title": "Software Developer",
+                    "achievements": [
+                        "Developed custom Drupal modules and integrated legacy backend services into the university portal",
+                        "Developed/customized various Java plugins for Oracle Virtual Directory and Shibboleth"
+                    ]
+                }
             ]
         },
         {
             "name": "APC by Schneider Electric",
-            "location": "Kolding, Denmark",
-            "start_date": "April 2010",
-            "end_date": "June 2010",
-            "title": "Java Developer",
-            "achievements": [
-                "Developed an Eclipse RCP based data center management software (product with 1000+ installations)",
-                "Worked in distributed teams (together with Bangalore, India and West Kingston, U.S.)",
-                "Used agile methodologies (Scrum and Test Driven Development)"
+                    "positions" : [
+                        {
+                    "location": "Kolding, Denmark",
+                    "start_date": "April 2010",
+                    "end_date": "June 2010",
+                    "title": "Java Developer",
+                    "achievements": [
+                        "Developed an Eclipse RCP based data center management software (product with 1000+ installations)",
+                        "Worked in distributed teams (together with Bangalore, India and West Kingston, U.S.)",
+                        "Used agile methodologies (Scrum and Test Driven Development)"
+                    ]
+                }
             ]
         },
         {
             "name": "Felder IT",
-            "location": "Vienna, Austria",
-            "start_date": "October 2008",
-            "end_date": "March 2010",
-            "title": "Java Web Developer",
-            "achievements": [
-                "Designed and developed web portal applications with JBoss Seam for major clients in the field of telecommunication",
-                "Migrated and integrated legacy software applications"
+            "positions" : [
+                {
+                    "location": "Vienna, Austria",
+                    "start_date": "October 2008",
+                    "end_date": "March 2010",
+                    "title": "Java Web Developer",
+                    "achievements": [
+                        "Designed and developed web portal applications with JBoss Seam for major clients in the field of telecommunication",
+                        "Migrated and integrated legacy software applications"
+                    ]
+                }
             ]
         },
         {
             "name": "Scope Consulting",
-            "location": "Vienna, Austria",
-            "start_date": "March 2007",
-            "end_date": "September 2008",
-            "title": "Software Developer",
-            "achievements": [
-                "Developed customized Java solutions (Web applications, Swing fat clients and customized servers) for major clients in the field of logistics",
-                "Introduction of continuous integration and Test Driven Development in the development process"
+            "positions" : [
+                {
+                    "location": "Vienna, Austria",
+                    "start_date": "March 2007",
+                    "end_date": "September 2008",
+                    "title": "Software Developer",
+                    "achievements": [
+                        "Developed customized Java solutions (Web applications, Swing fat clients and customized servers) for major clients in the field of logistics",
+                        "Introduction of continuous integration and Test Driven Development in the development process"
+                    ]
+                }
             ]
         }
     ],

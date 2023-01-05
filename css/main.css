@@ -23,7 +23,7 @@ p, #main li {
 
 h1 {
     margin-top: 2px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
     font-size: 30px;
 }
 
@@ -41,6 +41,10 @@ h3 {
 
 img {
     cursor: pointer;
+}
+
+footer {
+    font-size: 12px;
 }
 
 .container-wide {
@@ -462,7 +466,6 @@ img {
     width: 320px;
     float: left;
     margin-right: 15px;
-    border-right: 1px solid rgba(0,0,0,0.2);
     padding-right: 15px;
 }
 
@@ -483,7 +486,7 @@ img {
 .anchor {
     display: block;
     position: relative;
-    top: -70px;
+    top: -112px;
     visibility: hidden;
 }
 
@@ -497,13 +500,52 @@ img {
     top: 15px;
 }
 
+.experience {
+    margin-bottom: 29px;
+}
+
+.experience-body {
+    clear: both;
+    position: relative;
+    margin-left: 12px;
+    padding-left: 16px;
+}
+
+.experience-body:before {
+  position: absolute;
+  content: '';
+  border-left: 1px solid rgba(0,0,0,0.2);
+  top: 12px;
+  left: 0px;
+  bottom: 12px;
+}
+
 .experience ul, .education ul {
     margin: 12px 0;
+    padding-left: 24px;
+}
+
+.experience .name:before {
+  position: absolute;
+  content: '\A';
+  height: 14px;
+  width: 14px;
+  background: #cccccc;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  top: 10px;
+  left: -23px;
 }
 
 .experience .name {
+    position: relative;
+    font-weight: bold;
     clear: both;
     margin-bottom: 0px;
+}
+
+.experience .name {
+    font-weight: bold;
 }
 
 .experience .name, .experience .duration {

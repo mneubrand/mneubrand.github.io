@@ -64,17 +64,23 @@ title: Resume
             <div class="panel-body">
             {% for experience in resume.experiences %}
                 <div class="experience">
-                    <h3 class="title text-primary">{% if experience.title %}{{ experience.title }}{% else %}{{ experience.name}}{% endif %}</h3>
-                    {% if experience.title %}<div class="name text-primary">{{ experience.name }}</div>{% endif %}
-                    <div class="duration text-primary">{{ experience.start_date }} - {{ experience.end_date }}</div>
-                    <div class="clear"></div>
-                    {% if experience.achievements.size > 0 %}
-                    <ul>
-                        {% for achievement in experience.achievements %}
-                            <li class="achievement">{{ achievement }}</li>
-                        {% endfor %}
-                    </ul>
-                    {% endif %}
+                    <h3 class="title text-primary">{{ experience.name }}</h3>
+
+                    <div class="experience-body">
+                    {% for position in experience.positions %}
+                        <div class="name text-primary">{{ position.title }}</div>
+                        <div class="duration text-primary">{{ position.start_date }} - {{ position.end_date }}</div>
+                        <div class="clear"></div>
+                        {% if position.achievements.size > 0 %}
+                        <ul>
+                            {% for achievement in position.achievements %}
+                                <li class="achievement">{{ achievement }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    {% endfor %}
+                    </div>
+
                 </div>
             {% endfor %}
             </div>
