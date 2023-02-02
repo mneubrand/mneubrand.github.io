@@ -68,8 +68,10 @@ title: Resume
 
                     <div class="experience-body">
                     {% for position in experience.positions %}
-                        <div class="name text-primary">{{ position.title }}</div>
-                        <div class="duration text-primary">{{ position.start_date }} - {{ position.end_date }}</div>
+                        <div class="header">
+                            <div class="name text-primary">{{ position.title }}</div>
+                            <div class="duration text-primary">{{ position.start_date }} - {{ position.end_date }}<br/>{{ position.location }}</div>
+                        </div>
                         <div class="clear"></div>
                         {% if position.achievements.size > 0 %}
                         <ul>
@@ -99,8 +101,10 @@ title: Resume
                     <h3 class="title text-primary">{{ education.title }}</h3>
 
                     <div class="experience-body">
-                        <div class="name text-primary">{{ education.institution }}</div>
-                        <div class="duration text-primary">{{ education.start_date }} - {{ education.end_date }}</div>
+                        <div class="header">
+                            <div class="name text-primary">{{ education.institution }}</div>
+                            <div class="duration text-primary">{{ education.start_date }} - {{ education.end_date }}</div>
+                        </div>
                         <div class="clear"></div>
                         {% if education.achievements.size > 0 %}
                         <ul>

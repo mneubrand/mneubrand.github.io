@@ -476,15 +476,6 @@ footer {
     float: right;
 }
 
-.resume .duration {
-    float: right;
-    margin-bottom: 0px;
-}
-
-.resume .name, .resume .institution, .experience .title {
-    float: left;
-}
-
 .experience .title {
     font-weight: bold;
 }
@@ -518,12 +509,16 @@ footer {
 }
 
 .experience-body:before {
-  position: absolute;
-  content: '';
-  border-left: 1px solid rgba(0,0,0,0.2);
-  top: 12px;
-  left: 0px;
-  bottom: 12px;
+    position: absolute;
+    content: '';
+    border-left: 1px solid rgba(0,0,0,0.2);
+    top: 19px;
+    left: 0px;
+    bottom: 12px;
+}
+
+.experience-body .experience-header:not(:first-child) {
+    margin-top: 10px;
 }
 
 .experience ul {
@@ -538,32 +533,41 @@ footer {
 }
 
 .experience .name:before {
-  position: absolute;
-  content: '\A';
-  height: 14px;
-  width: 14px;
-  background: #cccccc;
-  border-radius: 50%;
-  border: 2px solid #ffffff;
-  top: 12px;
-  left: -27px;
+    position: absolute;
+    content: '\A';
+    height: 14px;
+    width: 14px;
+    background: #cccccc;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    top: 13px;
+    left: -27px;
 }
 
 .experience .name {
     margin-left: 4px;
     position: relative;
     font-weight: bold;
-    clear: both;
     margin-bottom: 0px;
 }
 
-.experience .name {
-    font-weight: bold;
+.resume .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 48px;
 }
 
-.experience .name, .experience .duration {
-    font-size: 18px;
+.experience .name {
+    font-size: 20px;
     padding: 2px 0;
+}
+
+.experience .duration {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 2px 0;
+    text-align: right;
 }
 
 .links i {
